@@ -20,7 +20,8 @@
     "/fonts/vendor/font-awesome/fontawesome-webfont.ttf": "/fonts/vendor/font-awesome/fontawesome-webfont.ttf",
     "/fonts/vendor/font-awesome/fontawesome-webfont.woff": "/fonts/vendor/font-awesome/fontawesome-webfont.woff",
     "/fonts/vendor/font-awesome/fontawesome-webfont.woff2": "/fonts/vendor/font-awesome/fontawesome-webfont.woff2",
-    "/images/profile-pic-2.png": "/images/profile-pic-2.png",
+    "/images/corner_shape.svg": "/images/corner_shape.svg",
+    "/images/corner_shape_old.svg": "/images/corner_shape_old.svg",
     "/images/profile-pic.png": "/images/profile-pic.png",
     "/images/shape.svg": "/images/shape.svg"
 }

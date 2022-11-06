@@ -7,6 +7,7 @@
     <div class="skill">Self Taught</div>
     <div class="skill">Quick Grasping</div>
     <div class="skill">Communication</div>
+    <div class="skill">Adaptability</div>
 </div>
 
 <div class="skillset">

@@ -24,23 +24,33 @@
             <div class="main-content">
                 <div class="custom-row">
                     <div class="left-col custom-col">
-                        <div class="work-experiences">
+                        <section class="work-experiences">
                             @include('work_experience')
-                        </div> <!-- End work experience col -->
-                    </div> <!-- End left col -->
-                    <div class="right-col custom-col">
-                        <div class="education">
-                            @include('education')
-                        </div> <!-- End education -->
-                        <div class="skills-section">
-                            @include('skills')
-                        </div>
-                        <div class="languages">
+                        </section>
+                        <section class="languages">
                             @include('languages')
-                        </div>
+                        </section>
+
+                        <!-- 
+                        <section class="references">
+                            @include('references')
+                        </section>
+                        -->
+                    </div>
+                    <div class="right-col custom-col">
+                        <section class="education">
+                            @include('education')
+                        </section>
+                        <section class="skills-section">
+                            @include('skills')
+                        </section>
+                        <section class="extracurricular">
+                            @include('extracurricular')
+                        </section>
                     </div>
                 </div>
             </div>
+            <img class="corner-shape" src="/images/corner_shape.svg">
         </page>
     </body>
 </html>
