@@ -29,6 +29,6 @@ return [
             'date' => '09/2017 - 01/2018',
             'location' => 'Porto, Portugal',
         ],
-        'description' => 'Assistance in the development and improvement of the platform VISIR+ through a cultural and technical exchange. Development of circuit experiments that required development of configuration files for the use of VISIR+. Developed an unified web platform where students could access the classes and also obtain more information about the use of the VISIR+.'
+        'description' => 'Assistance in the development and improvement of the platform VISIR+ through a cultural and technical exchange. Developed an unified web platform where students could access the classes and also obtain more information about the use of the VISIR+.'
     ],
 ];

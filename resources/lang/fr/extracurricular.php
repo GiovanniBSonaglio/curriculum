@@ -29,6 +29,6 @@ return [
             'date' => '09/2017 - 01/2018',
             'location' => 'Porto, Portugal',
         ],
-        'description' => 'Assistance au développement et à l\'amélioration de la plateforme VISIR+ à travers un échange culturel et technique. Développement d\'expériences de circuits nécessitant le développement de fichiers de configuration pour l\'utilisation de VISIR+. Développement d\'une plate-forme Web unifiée où les étudiants pouvaient accéder aux cours et aussi obtenir plus d\'informations sur l\'utilisation de VISIR+.'
+        'description' => 'Assistance au développement et à l\'amélioration de la plateforme VISIR+ à travers un échange culturel et technique. Développement d\'une plate-forme Web unifiée où les étudiants pouvaient accéder aux cours et aussi obtenir plus d\'informations sur l\'utilisation de VISIR+.'
     ],
 ];
