@@ -23,5 +23,7 @@
     "/images/corner_shape.svg": "/images/corner_shape.svg",
     "/images/corner_shape_old.svg": "/images/corner_shape_old.svg",
     "/images/profile-pic.png": "/images/profile-pic.png",
-    "/images/shape.svg": "/images/shape.svg"
+    "/images/shape.svg": "/images/shape.svg",
+    "/lang/en/curriculum.php": "/lang/en/curriculum.php",
+    "/lang/en/profile.php": "/lang/en/profile.php"
 }

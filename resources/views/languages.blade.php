@@ -1,16 +1,16 @@
-<div class="title"> LANGUAGES </div>
+<div class="title"> {{ __('languages.title') }} </div>
 <div class="item">
-    <div class="left"> Portuguese </div>
+    <div class="left"> {{ __('languages.portuguese') }} </div>
     <div class="line"></div>
-    <div class="right"> Native Language </div>
+    <div class="right"> {{ __('languages.portuguese-level') }} </div>
 </div>
 <div class="item">
-    <div class="left"> English </div>
+    <div class="left"> {{ __('languages.english') }} </div>
     <div class="line"></div>
-    <div class="right"> Full Professional Proficiency </div>
+    <div class="right"> {{ __('languages.english-level') }} </div>
 </div>
 <div class="item">
-    <div class="left"> French </div>
+    <div class="left"> {{ __('languages.french') }} </div>
     <div class="line"></div>
-    <div class="right"> Advanced Proficiency (B2 - DELF) </div>
+    <div class="right"> {{ __('languages.french-level') }} </div>
 </div>

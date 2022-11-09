@@ -1,39 +1,39 @@
-<div class="title"> EXTRACURRICULAR ACTIVITIES </div>
+<div class="title"> {{ __('extracurricular.title') }} </div>
 <div class="course">
     <div class="degree">
-        HCJB - NGO
+        {{ __('extracurricular.activity1.name') }}
     </div>
     <div class="info">
-        <div class="left">11/2016 - 01/2019</div>
-        <div class="right"> Florianópolis, Brasil </div>
+        <div class="left"> {{ __('extracurricular.activity1.info.date') }} </div>
+        <div class="right"> {{ __('extracurricular.activity1.info.location') }} </div>
     </div>
     <div class="activities">
-        <i class="fa-solid fa-square"></i> Created web system for controlling the distribution and storage of media units that are distributed nationwide.
+        <i class="fa-solid fa-square"></i> {{ __('extracurricular.activity1.description') }}
     </div>
 </div>
 
 <div class="course">
     <div class="degree">
-        FRC5800 - Robotics Teams
+        {{ __('extracurricular.activity2.name') }}
     </div>
     <div class="info">
-        <div class="left">11/2016 - 01/2019</div>
-        <div class="right"> IFSC - Florianópolis, Brasil </div>
+        <div class="left"> {{ __('extracurricular.activity2.info.date') }} </div>
+        <div class="right"> {{ __('extracurricular.activity2.info.location') }} </div>
     </div>
     <div class="activities">
-        <i class="fa-solid fa-square"></i> Participated in the FIRST Competition in Florida, USA as translator in addition to my other technical activities. Gave workshops on introduction to robotics on the other campi of the Federal Institute in several cities of the state.
+        <i class="fa-solid fa-square"></i> {{ __('extracurricular.activity2.description') }}
     </div>
 </div>
 
 <div class="course">
     <div class="degree">
-        ISEP -  Higher Engineering Institute of Porto
+        {{ __('extracurricular.activity3.name') }}
     </div>
     <div class="info">
-        <div class="left">09/2017 - 01/2018</div>
-        <div class="right"> Porto, Portugal </div>
+        <div class="left"> {{ __('extracurricular.activity3.info.date') }} </div>
+        <div class="right"> {{ __('extracurricular.activity3.info.location') }} </div>
     </div>
     <div class="activities">
-        <i class="fa-solid fa-square"></i> Assistance in the development and improvement of the platform VISIR+ through a cultural and technical exchange. Development of circuit experiments that required development of configuration files for the use of VISIR+. Developed an unified web platform where students could access the classes and also obtain more information about the use of the VISIR+.
+        <i class="fa-solid fa-square"></i> {{ __('extracurricular.activity3.description') }}
     </div>
 </div>

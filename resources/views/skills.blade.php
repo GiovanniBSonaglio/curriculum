@@ -1,35 +1,35 @@
-<div class="title">SKILLS & COMPETENCIES</div>
+<div class="title"> {{ __('skills.title') }} </div>
 <div class="skillset">
-    <div class="subtitle">Soft Skills</div>
-    <div class="skill">Teamwork</div>
-    <div class="skill">Leadership</div>
-    <div class="skill">Self Management</div>
-    <div class="skill">Self Taught</div>
-    <div class="skill">Quick Grasping</div>
-    <div class="skill">Communication</div>
-    <div class="skill">Adaptability</div>
+    <div class="subtitle"> {{ __('skills.soft.title') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill1') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill2') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill3') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill4') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill5') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill6') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill7') }} </div>
 </div>
 
 <div class="skillset">
-    <div class="subtitle">Hard Skills</div>
-    <div class="skill">C & C++</div>
-    <div class="skill">PHP</div>
-    <div class="skill">Process Automation</div>
-    <div class="skill">Javascript</div>
-    <div class="skill">Git</div>
-    <div class="skill">MySQL</div>
-    <div class="skill">Linux</div>
-    <div class="skill">Web Development</div>
-    <div class="skill">Embedded Software</div>
-    <div class="skill">Circuit Design & Manufacturing</div>
+    <div class="subtitle"> {{ __('skills.hard.title') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill1') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill2') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill3') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill4') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill5') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill6') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill7') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill8') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill9') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill10') }} </div>
 </div>
 
 <div class="skillset">
-    <div class="subtitle">Tools</div>
-    <div class="skill">Altium</div>
-    <div class="skill">VSCode</div>
-    <div class="skill">Proteus</div>
-    <div class="skill">PSIM</div>
-    <div class="skill">AutoCAD</div>
-    <div class="skill">Quartus</div>
+    <div class="subtitle"> {{ __('skills.tools.title') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool1') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool2') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool3') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool4') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool5') }} </div>
+    <div class="skill"> {{ __('skills.tools.tool6') }} </div>
 </div>

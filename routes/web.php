@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('curriculum');
 });
+
+Route::get('/{locale}', function ($locale) {
+    if (! in_array($locale, ['en', 'fr', 'pt'])) {
+        abort(400);
+    }
+ 
+    App::setLocale($locale);
+ 
+    return view('curriculum');
+});

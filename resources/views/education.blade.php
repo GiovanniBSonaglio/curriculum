@@ -1,39 +1,39 @@
-<div class="title">EDUCATION</div>
+<div class="title"> {{ __('education.title') }} </div>
 <div class="course">
     <div class="degree">
-        Electrical Engineering | <i>Master</i>
+        {{ __('education.degree1.degree') }} | <i>{{ __('education.degree1.level') }}</i>
     </div>
-    <div class="institution">INP - ENSEEIHT</div>
+    <div class="institution"> {{ __('education.degree1.institution') }} </div>
     <div class="info">
-        <div class="left">09/2022 - Present</div>
-        <div class="right"> Toulouse, France </div>
+        <div class="left"> {{ __('education.degree1.info.date') }} </div>
+        <div class="right"> {{ __('education.degree1.info.location') }} </div>
     </div>
     <div class="activities">
-        <i class="fa-solid fa-square"></i> Exchange with Excellence Scholarship (Brafitec)
+        <i class="fa-solid fa-square"></i> {{ __('education.degree1.observation') }}
     </div>
 </div>
 
 <div class="course">
     <div class="degree">
-        Electrical Engineering | <i>Bachelor</i>
+        {{ __('education.degree2.degree') }} | <i>{{ __('education.degree2.level') }}</i>
     </div>
-    <div class="institution"> Federal University of Santa Catarina</div>
+    <div class="institution"> {{ __('education.degree2.institution') }} </div>
     <div class="info">
-        <div class="left">01/2019 - Present</div>
-        <div class="right"> Florianópolis, Brasil </div>
+        <div class="left"> {{ __('education.degree2.info.date') }} </div>
+        <div class="right"> {{ __('education.degree2.info.location') }} </div>
     </div>
 </div>
 
 <div class="course">
     <div class="degree">
-        Electronics | <i>Technician</i>
+        {{ __('education.degree3.degree') }} | <i>{{ __('education.degree3.level') }}</i>
     </div>
-    <div class="institution"> Federal Institute of Santa Catarina</div>
+    <div class="institution"> {{ __('education.degree3.institution') }} </div>
     <div class="info">
-        <div class="left">01/2014 - 12/2018</div>
-        <div class="right"> Florianópolis, Brasil </div>
+        <div class="left"> {{ __('education.degree3.info.date') }} </div>
+        <div class="right"> {{ __('education.degree3.info.location') }} </div>
     </div>
     <div class="activities">
-        <i class="fa-solid fa-square"></i> Technical course integrated with high school
+        <i class="fa-solid fa-square"></i> {{ __('education.degree3.observation') }}
     </div>
 </div>
