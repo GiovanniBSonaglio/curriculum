@@ -21198,8 +21198,8 @@ page[size=A4] {
   -webkit-print-color-adjust: exact;
 }
 .profile .summary {
-  width: 36.5%;
-  max-width: 36.5%;
+  width: 39.5%;
+  max-width: 39.5%;
   height: 150px;
   text-align: justify;
 }
@@ -21224,8 +21224,8 @@ page[size=A4] {
   font-size: 12px;
 }
 .profile .picture-area {
-  width: 25%;
-  max-width: 25%;
+  width: 22%;
+  max-width: 22%;
   height: 150px;
 }
 .profile .picture-area .picture {

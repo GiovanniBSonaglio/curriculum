@@ -43,8 +43,8 @@ return [
             ],
             'activities' => [
                 'item1' => 'Development of the frontend (CSS, HTML, Javascript) and backend (PHP) of web pages and web applications using the company custom MVC framework.',
-                'item2' => 'Customer support in order to solve bugs and implement new features for the applications.',
-                'item3' => 'Management and maintenance of MySQL databases and web hosting platforms.'
+                'item2' => 'Hihgly involved with customer support in order to solve bugs and implement new features for the applications.',
+                'item3' => 'Management, maintenance and development of MySQL databases and web hosting platforms.'
             ]
         ]
     ],

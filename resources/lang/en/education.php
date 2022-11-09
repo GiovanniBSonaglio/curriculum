@@ -11,7 +11,7 @@ return [
             'date' => '09/2022 - Present',
             'location' => 'Toulouse, France',
         ],
-        'observation' => 'Exchange with Excellence Scholarship (Brafitec)'
+        'observation' => 'Exchange with Excellence Scholarship (Brafitec) for a double degree.'
     ],
     
     // UFSC
@@ -34,6 +34,6 @@ return [
             'date' => '01/2014 - 12/2018',
             'location' => 'Florianópolis, Brazil',
         ],
-        'observation' => 'Technical course integrated with high school'
+        'observation' => 'Technical course integrated with high school.'
     ],
 ];
