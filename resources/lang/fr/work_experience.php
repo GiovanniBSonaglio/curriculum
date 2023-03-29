@@ -18,7 +18,7 @@ return [
             ]
         ],
         'pos2' => [
-            'position' => 'Développeur de Logiciels - Stage',
+            'position' => 'Développeur de Logiciels - Alternance',
             'info' => [
                 'date' => '10/2020 - 03/2022',
                 'location' => 'Florianópolis, Brésil',
@@ -36,7 +36,7 @@ return [
     'equipe_digital' => [
         'company_name' => 'Equipe Digital',
         'pos1' => [
-            'position' => 'Développeur Web Full Stack - Stage',
+            'position' => 'Développeur Web Full Stack - Alternance',
             'info' => [
                 'date' => '08/2019 - 10/2020',
                 'location' => 'Florianópolis, Brésil',
@@ -53,7 +53,7 @@ return [
     'oi' => [
         'company_name' => 'Oi SA',
         'pos1' => [
-            'position' => 'Développeur de Logiciels - Stage',
+            'position' => 'Développeur de Logiciels - Alternance',
             'info' => [
                 'date' => '11/2015 - 09/2017',
                 'location' => 'Florianópolis, Brésil',

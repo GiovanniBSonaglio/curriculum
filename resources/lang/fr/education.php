@@ -17,7 +17,7 @@ return [
     // UFSC
     'degree2' => [
         'degree' => 'Ingénierie Électrique',
-        'level' => 'Baccalauréat',
+        'level' => 'Formation Ingénieur',
         'institution' => 'Université Fédérale de Santa Catarina',
         'info' => [
             'date' => '01/2019 - Présent',
@@ -28,7 +28,7 @@ return [
     // IFSC
     'degree3' => [
         'degree' => 'Électronique',
-        'level' => 'Technicien',
+        'level' => 'Technicien et Baccalauréat',
         'institution' => 'Institut Fédéral de Santa Catarina',
         'info' => [
             'date' => '01/2014 - 12/2018',

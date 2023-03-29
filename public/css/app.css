@@ -21231,8 +21231,8 @@ page[size=A4] {
 .profile .picture-area .picture {
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: left;
-     object-position: left;
+  -o-object-position: top;
+     object-position: top;
   width: 140px;
   height: 140px;
   border-radius: 140px;

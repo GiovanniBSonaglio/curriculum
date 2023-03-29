@@ -21,7 +21,7 @@ return [
             'position' => 'Internship as Software Developer',
             'info' => [
                 'date' => '10/2020 - 03/2022',
-                'location' => 'Florianópolis, Brasil',
+                'location' => 'Florianópolis, Brazil',
             ],
             'activities' => [
                 'item1' => 'Development of C++, PHP and Linux Kernel applications focused mainly in Voice Over IP (VoIP) using SIP in order to solve client\'s demands.',
@@ -43,7 +43,7 @@ return [
             ],
             'activities' => [
                 'item1' => 'Development of the frontend (CSS, HTML, Javascript) and backend (PHP) of web pages and web applications using the company custom MVC framework.',
-                'item2' => 'Hihgly involved with customer support in order to solve bugs and implement new features for the applications.',
+                'item2' => 'Highly involved with customer support in order to solve bugs and implement new features for the applications.',
                 'item3' => 'Management, maintenance and development of MySQL databases and web hosting platforms.'
             ]
         ]

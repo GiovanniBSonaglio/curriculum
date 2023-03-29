@@ -8,7 +8,7 @@
         <p class="text"> {{ __('profile.summary') }} </p>
     </div>
     <div class="picture-area custom-col">
-        <img class="picture" src="/images/profile-pic.png">
+        <img class="picture" src="/images/profile-pic.jpeg">
     </div>
     <div class="contact custom-col">
         {{ __('profile.info') }} <i class="fa-solid fa-user"></i>
