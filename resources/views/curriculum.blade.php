@@ -27,9 +27,6 @@
                         <section class="work-experiences">
                             @include('work_experience')
                         </section>
-                        <section class="languages">
-                            @include('languages')
-                        </section>
 
                         <!-- 
                         <section class="references">
@@ -46,6 +43,9 @@
                         </section>
                         <section class="extracurricular">
                             @include('extracurricular')
+                        </section>
+                        <section class="languages">
+                            @include('languages')
                         </section>
                     </div>
                 </div>

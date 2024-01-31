@@ -16,24 +16,26 @@ return [
     ],
     'hard' => [
         'title' => 'Hard Skills',
-        'skill1' => 'C & C++ ',
+        'skill1' => 'C & C++',
         'skill2' => 'PHP ',
         'skill3' => 'Process Automation ',
         'skill4' => 'Javascript ',
         'skill5' => 'Git ',
-        'skill6' => 'MySQL ',
-        'skill7' => 'Linux ',
-        'skill8' => 'Web Development ',
-        'skill9' => 'Embedded Software ',
-        'skill10' => 'Circuit Design & Manufacturing'
+        'skill6' => 'Python',
+        'skill7' => 'MySQL ',
+        'skill8' => 'Linux ',
+        'skill9' => 'Web Development ',
+        'skill10' => 'Embedded Software ',
+        'skill11' => 'Circuit Design & Manufacturing'
     ],
     'tools' => [
         'title' => 'Tools',
-        'tool1' => 'Altium',
-        'tool2' => 'VSCode',
-        'tool3' => 'Proteus',
-        'tool4' => 'PSIM',
-        'tool5' => 'AutoCAD',
-        'tool6' => 'Quartus'
+        'tool1' => 'Matlab',
+        'tool2' => 'Altium',
+        'tool3' => 'VSCode',
+        'tool4' => 'Proteus',
+        'tool5' => 'PSIM',
+        'tool6' => 'AutoCAD',
+        'tool7' => 'Quartus'
     ]
 ];

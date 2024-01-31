@@ -80,6 +80,7 @@ page[size="A4"] {
     margin-left: 355px;
     top: 152px;
     right: 207px;
+    opacity: 0.7;
 
     height: 200px;
     width: 210mm;
@@ -93,7 +94,8 @@ page[size="A4"] {
     // Necessary because of bugs with printing and pos. absolute
     position: relative;
     right: 260px;
-    bottom: 210px;
+    bottom: 220px;
+    opacity: 0.7;
 
     height: 200px;
     width: 210mm;
@@ -195,6 +197,10 @@ page[size="A4"] {
     width: 100%;
     height: fit-content;
     z-index: 10;
+
+    section {
+        margin-bottom: 13px;
+    }
 
     .left-col {
         width: 50%;

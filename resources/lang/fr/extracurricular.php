@@ -2,15 +2,15 @@
 
 return [
     'title' => 'ACTIVITÉS EXTRA-SCOLAIRES',
-    // HCJB
-    'activity1' => [
-        'name' => 'HCJB - ONG',
-        'info' => [
-            'date' => '05/2020 - Présent',
-            'location' => 'Curitiba, Brésil',
-        ],
-        'description' => 'Création d\'un système Web pour contrôler la distribution et le stockage des unités multimédias qui sont distribuées dans tout le pays aux communautés difficiles à atteindre'
-    ],
+    // // HCJB
+    // 'activity1' => [
+    //     'name' => 'HCJB - ONG',
+    //     'info' => [
+    //         'date' => '05/2020 - Présent',
+    //         'location' => 'Curitiba, Brésil',
+    //     ],
+    //     'description' => 'Création d\'un système Web pour contrôler la distribution et le stockage des unités multimédias qui sont distribuées dans tout le pays aux communautés difficiles à atteindre'
+    // ],
     
     // FRC5800
     'activity2' => [

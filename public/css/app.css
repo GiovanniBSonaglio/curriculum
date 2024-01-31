@@ -21158,6 +21158,7 @@ page[size=A4] {
   margin-left: 355px;
   top: 152px;
   right: 207px;
+  opacity: 0.7;
   height: 200px;
   width: 210mm;
   rotate: -130deg;
@@ -21169,7 +21170,8 @@ page[size=A4] {
 .corner-shape {
   position: relative;
   right: 260px;
-  bottom: 210px;
+  bottom: 220px;
+  opacity: 0.7;
   height: 200px;
   width: 210mm;
   z-index: 1;
@@ -21262,6 +21264,9 @@ page[size=A4] {
   height: -moz-fit-content;
   height: fit-content;
   z-index: 10;
+}
+.main-content section {
+  margin-bottom: 13px;
 }
 .main-content .left-col {
   width: 50%;

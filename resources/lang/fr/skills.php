@@ -21,19 +21,21 @@ return [
         'skill3' => 'Automatisation des Processus',
         'skill4' => 'Javascript',
         'skill5' => 'Git',
-        'skill6' => 'MySQL',
-        'skill7' => 'Linux',
-        'skill8' => 'Développement Web',
-        'skill9' => 'Logiciel Embarqué',
-        'skill10' => 'Conception & Fabrication de Circuits'
+        'skill6' => 'Python',
+        'skill7' => 'MySQL',
+        'skill8' => 'Linux',
+        'skill9' => 'Développement Web',
+        'skill10' => 'Logiciel Embarqué',
+        'skill11' => 'Conception & Fabrication de Circuits'
     ],
     'tools' => [
         'title' => 'Outils',
-        'tool1' => 'Altium',
-        'tool2' => 'VSCode',
-        'tool3' => 'Proteus',
-        'tool4' => 'PSIM',
-        'tool5' => 'AutoCAD',
-        'tool6' => 'Quartus'
+        'tool1' => 'Matlab',
+        'tool2' => 'Altium',
+        'tool3' => 'VSCode',
+        'tool4' => 'Proteus',
+        'tool5' => 'PSIM',
+        'tool6' => 'AutoCAD',
+        'tool7' => 'Quartus'
     ]
 ];

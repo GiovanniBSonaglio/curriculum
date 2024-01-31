@@ -1,5 +1,5 @@
 <div class="title"> {{ __('extracurricular.title') }} </div>
-<div class="course">
+{{-- <div class="course">
     <div class="degree">
         {{ __('extracurricular.activity1.name') }}
     </div>
@@ -10,7 +10,7 @@
     <div class="activities">
         <i class="fa-solid fa-square"></i> {{ __('extracurricular.activity1.description') }}
     </div>
-</div>
+</div> --}}
 
 <div class="course">
     <div class="degree">

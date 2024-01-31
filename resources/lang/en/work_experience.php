@@ -2,6 +2,41 @@
  
 return [
     'title' => 'WORK EXPERIENCE',
+
+    // Qorvo
+    'qorvo' => [
+        'company_name' => 'Qorvo',
+        'pos1' => [
+            'position' => 'Internship as Software Developer',
+            'info' => [
+                'date' => '09/2023 - Maintenant',
+                'location' => 'Toulouse, France',
+            ],
+            'activities' => [
+                'item1' => 'Development of an emulator for the real-time UWB chip, using C and UNIX to mimic the chips and provide predictive test models.',
+                'item2' => 'Integration of chips into the automatic testing CI framework.',
+                'item3' => 'Development of custom toolsets to facilitate data visualization and analysis.'
+            ]
+        ]
+    ],
+
+    // Capgemini
+    'capgemini' => [
+        'company_name' => 'Capgemini Engineering',
+        'pos1' => [
+            'position' => 'Internship as Software Developer',
+            'info' => [
+                'date' => '06/2023 - 09/2023',
+                'location' => 'Toulouse, France',
+            ],
+            'activities' => [
+                'item1' => 'Development of new features in the matlab models and C calculation scripts of the flight management system.',
+                'item2' => 'Implemented a python script for the generation of a report and graph of the matlab models dependencies in order to facilitate future developments',
+                'item3' => 'Direct contact with client in order to implement new demands and solve issues of the flight management system.'
+            ]
+        ]
+    ],
+    
     // Khomp
     'khomp' => [
         'company_name' => 'Khomp',
@@ -33,21 +68,21 @@ return [
     ],
 
     // Equipe Digital
-    'equipe_digital' => [
-        'company_name' => 'Equipe Digital',
-        'pos1' => [
-            'position' => 'Internship as Full Stack Web Developer',
-            'info' => [
-                'date' => '08/2019 - 10/2020',
-                'location' => 'Florianópolis, Brazil',
-            ],
-            'activities' => [
-                'item1' => 'Development of the frontend (CSS, HTML, Javascript) and backend (PHP) of web pages and web applications using the company custom MVC framework.',
-                'item2' => 'Highly involved with customer support in order to solve bugs and implement new features for the applications.',
-                'item3' => 'Management, maintenance and development of MySQL databases and web hosting platforms.'
-            ]
-        ]
-    ],
+    // 'equipe_digital' => [
+    //     'company_name' => 'Equipe Digital',
+    //     'pos1' => [
+    //         'position' => 'Internship as Full Stack Web Developer',
+    //         'info' => [
+    //             'date' => '08/2019 - 10/2020',
+    //             'location' => 'Florianópolis, Brazil',
+    //         ],
+    //         'activities' => [
+    //             'item1' => 'Development of the frontend (CSS, HTML, Javascript) and backend (PHP) of web pages and web applications using the company custom MVC framework.',
+    //             'item2' => 'Highly involved with customer support in order to solve bugs and implement new features for the applications.',
+    //             'item3' => 'Management, maintenance and development of MySQL databases and web hosting platforms.'
+    //         ]
+    //     ]
+    // ],
 
     // Oi
     'oi' => [

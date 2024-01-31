@@ -2,15 +2,15 @@
 
 return [
     'title' => 'EXTRACURRICULAR ACTIVITIES',
-    // HCJB
-    'activity1' => [
-        'name' => 'HCJB - NGO',
-        'info' => [
-            'date' => '05/2020 - Present',
-            'location' => 'Curitiba, Brazil',
-        ],
-        'description' => 'Created web system for controlling the distribution and storage of media units that are being distribuded nationwide to hard-to-reach communities'
-    ],
+    // // HCJB
+    // 'activity1' => [
+    //     'name' => 'HCJB - NGO',
+    //     'info' => [
+    //         'date' => '05/2020 - Present',
+    //         'location' => 'Curitiba, Brazil',
+    //     ],
+    //     'description' => 'Created web system for controlling the distribution and storage of media units that are being distribuded nationwide to hard-to-reach communities'
+    // ],
     
     // FRC5800
     'activity2' => [
