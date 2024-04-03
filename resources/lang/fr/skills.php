@@ -3,7 +3,7 @@
 // Skills enumerated because than it's easier to change the order, if needed, to better fit the page
 
 return [
-    'title' => 'APTITUDES & COMPETENCES',
+    'title' => 'APTITUDES & COMPÉTENCES',
     'soft' => [
         'title' => 'Soft Skills',
         'skill1' => 'Travail en équipe',

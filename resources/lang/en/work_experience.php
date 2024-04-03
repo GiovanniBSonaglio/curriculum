@@ -9,7 +9,7 @@ return [
         'pos1' => [
             'position' => 'Internship as Software Developer',
             'info' => [
-                'date' => '09/2023 - Maintenant',
+                'date' => '09/2023 - Present',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [

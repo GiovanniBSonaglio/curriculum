@@ -5,10 +5,10 @@ return [
     // INP - ENSEEIHT
     'degree1' => [
         'degree' => 'Ingénierie Électrique',
-        'level' => 'Master',
+        'level' => 'BAC +5',
         'institution' => 'INP - ENSEEIHT',
         'info' => [
-            'date' => '09/2022 - Présent',
+            'date' => '09/2022 - À ce jour',
             'location' => 'Toulouse, France',
         ],
         'observation' => 'Échange avec bourse d\'excellence (Brafitec) pour le double diplôme.'
@@ -20,7 +20,7 @@ return [
         'level' => 'Formation Ingénieur',
         'institution' => 'Université Fédérale de Santa Catarina',
         'info' => [
-            'date' => '01/2019 - Présent',
+            'date' => '01/2019 - À ce jour',
             'location' => 'Florianópolis, Brésil',
         ]
     ],

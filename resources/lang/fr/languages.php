@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'LANGUAGES',
+    'title' => 'LANGAGES',
     'portuguese' => 'Portugais',
     'portuguese-level' => 'Langue Maternelle',
     'english' => 'Anglais',

@@ -9,7 +9,7 @@ return [
         'pos1' => [
             'position' => 'Développeur de Logiciels - Alternance',
             'info' => [
-                'date' => '09/2023 - Maintenant',
+                'date' => '09/2023 - À ce jour',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
