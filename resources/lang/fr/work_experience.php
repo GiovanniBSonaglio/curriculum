@@ -7,16 +7,15 @@ return [
     'qorvo' => [
         'company_name' => 'Qorvo',
         'pos1' => [
-            'position' => 'Développeur de Logiciels - Alternance',
+            'position' => 'Ingénieur Logiciel - Alternance',
             'info' => [
                 'date' => '09/2023 - À ce jour',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
-                'item1' => 'Création d\'un émulateur pour la puce UWB temps réel, utilisant C et UNIX pour imiter les puces et fournir des modèles de tests prédictifs.',
+                'item1' => 'Développement d\'un émulateur virtuel pour les puces UWB de Qorvo, en utilisant C/C++ et UNIX pour simuler les puces et faciliter le test de la stack.',
                 'item2' => 'Intégration des puces dans le framework CI de tests automatiques.',
-                'item3' => 'Développer des ensembles d\'outils personnalisés pour faciliter la visualisation des
-                données et l\'analyse.'
+                'item3' => 'Conception de l\'architecture de l\'émulateur, capable de fonctionner entièrement sur un hôte Linux.'
             ]
         ]
     ],
@@ -25,14 +24,14 @@ return [
     'capgemini' => [
         'company_name' => 'Capgemini Engineering',
         'pos1' => [
-            'position' => 'Développeur de Logiciels - Stage',
+            'position' => 'Ingénieur Logiciel - Stage',
             'info' => [
                 'date' => '06/2023 - 09/2023',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
                 'item1' => 'Développement de nouvelles fonctionnalités dans les modèles Matlab et scripts de calcul C du système de gestion de vol, en contact direct avec le client.',
-                'item2' => 'Implémentation d\'un script python pour la génération d\'un rapport et d\'un graphe des dépendances des modèles Matlab afin de faciliter les développements futurs.'
+                'item2' => 'Implémentation des scripts python pour la génération d\'un rapport et d\'un graphe des dépendances des modèles Matlab afin de faciliter les développements futurs.'
             ]
         ]
     ],
@@ -41,7 +40,7 @@ return [
     'khomp' => [
         'company_name' => 'Khomp',
         'pos1' => [
-            'position' => 'Développeur Logiciel Junior',
+            'position' => 'Ingénieur Logiciel - CDI',
             'info' => [
                 'date' => '04/2022 - 10/2022',
                 'location' => 'Florianópolis, Brésil',
@@ -49,11 +48,11 @@ return [
             'activities' => [
                 'item1' => 'Chargé d\'assister plusieurs activités de gestion concernant la nouvelle version WebRTC du produit.',
                 'item2' => 'Chargé de restructurer le gitlab de l\'équipe afin de mieux supporter les deux versions du produit.',
-                'item3' => 'Assurer le support de la nouvelle version WebRTC en effectuant des corrections de bogues afin de répondre aux demandes des clients.'
+                'item3' => 'Assurer le support de la nouvelle version WebRTC en effectuant des corrections de bugs afin de répondre aux demandes des clients.'
             ]
         ],
         'pos2' => [
-            'position' => 'Développeur de Logiciels - Alternance',
+            'position' => 'Ingénieur Logiciel - Alternance',
             'info' => [
                 'date' => '10/2020 - 03/2022',
                 'location' => 'Florianópolis, Brésil',
@@ -86,15 +85,15 @@ return [
 
     // Oi
     'oi' => [
-        'company_name' => 'Oi SA',
+        'company_name' => 'Oi S.A.',
         'pos1' => [
-            'position' => 'Développeur de Logiciels - Alternance',
+            'position' => 'Ingénieur Logiciel - Alternance',
             'info' => [
                 'date' => '11/2015 - 09/2017',
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement d\'applications PHP, Shell et Kernel pour l\'automatisation des tâches liées à la gestion, au monitoring et au diagnostic du backbone.',
+                'item1' => 'Développement d\'applications PHP, Shell et Kernel pour l\'automatisation des tâches liées à la gestion, au monitoring et au diagnostic de machines fournissant des services de télécommunications.',
                 'item2' => 'Développement de systèmes web pour le contrôle et le diagnostic des processus d\'automatisation développés.',
                 'item3' => 'Gestion, maintenance et développement de bases de données MySQL.'
             ]

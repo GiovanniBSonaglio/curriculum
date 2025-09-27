@@ -9,7 +9,7 @@ return [
         'skill1' => 'Travail en équipe',
         'skill2' => 'Leadership',
         'skill3' => 'Autogestion',
-        'skill4' => 'Autodidacte',
+        'skill4' => 'Autodidactisme',
         'skill5' => 'Apprenant Vite',
         'skill6' => 'Communication',
         'skill7' => 'Adaptabilité'

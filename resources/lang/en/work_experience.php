@@ -7,15 +7,15 @@ return [
     'qorvo' => [
         'company_name' => 'Qorvo',
         'pos1' => [
-            'position' => 'Internship as Software Developer',
+            'position' => 'Alternant as Software Engineer',
             'info' => [
                 'date' => '09/2023 - Present',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
-                'item1' => 'Development of an emulator for the real-time UWB chip, using C and UNIX to mimic the chips and provide predictive test models.',
+                'item1' => 'Development of a virtual emulator for Qorvo`s UWB chips, using C/C++ and UNIX to mimic the chips and facilitate tests of the stack.',
                 'item2' => 'Integration of chips into the automatic testing CI framework.',
-                'item3' => 'Development of custom toolsets to facilitate data visualization and analysis.'
+                'item3' => 'Conception of the entire architecture of the emulator, capable of running entirely on a linux host.'
             ]
         ]
     ],
@@ -24,7 +24,7 @@ return [
     'capgemini' => [
         'company_name' => 'Capgemini Engineering',
         'pos1' => [
-            'position' => 'Internship as Software Developer',
+            'position' => 'Internship as Software Engineer',
             'info' => [
                 'date' => '06/2023 - 09/2023',
                 'location' => 'Toulouse, France',
@@ -41,7 +41,7 @@ return [
     'khomp' => [
         'company_name' => 'Khomp',
         'pos1' => [
-            'position' => 'Junior Software Developer',
+            'position' => 'Junior Software Engineer',
             'info' => [
                 'date' => '04/2022 - 10/2022',
                 'location' => 'Florianópolis, Brazil',
@@ -53,7 +53,7 @@ return [
             ]
         ],
         'pos2' => [
-            'position' => 'Internship as Software Developer',
+            'position' => 'Internship as Software Engineer',
             'info' => [
                 'date' => '10/2020 - 03/2022',
                 'location' => 'Florianópolis, Brazil',
@@ -86,9 +86,9 @@ return [
 
     // Oi
     'oi' => [
-        'company_name' => 'Oi SA',
+        'company_name' => 'Oi S.A.',
         'pos1' => [
-            'position' => 'Internship as Software Developer',
+            'position' => 'Internship as Software Engineer',
             'info' => [
                 'date' => '11/2015 - 09/2017',
                 'location' => 'Florianópolis, Brazil',

@@ -11,7 +11,7 @@ return [
             'date' => '09/2022 - À ce jour',
             'location' => 'Toulouse, France',
         ],
-        'observation' => 'Échange avec bourse d\'excellence (Brafitec) pour le double diplôme.'
+        'observation' => 'Échange avec bourse d\'excellence (Brafitec) avec double diplôme.'
     ],
     
     // UFSC

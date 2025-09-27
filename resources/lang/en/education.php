@@ -5,13 +5,13 @@ return [
     // INP - ENSEEIHT
     'degree1' => [
         'degree' => 'Electrical Engineering',
-        'level' => 'Master',
+        'level' => 'BAC +5',
         'institution' => 'INP - ENSEEIHT',
         'info' => [
             'date' => '09/2022 - Present',
             'location' => 'Toulouse, France',
         ],
-        'observation' => 'Exchange with Excellence Scholarship (Brafitec) for a double degree.'
+        'observation' => 'Exchange with excellence scholarship (Brafitec) for a double degree.'
     ],
     
     // UFSC
