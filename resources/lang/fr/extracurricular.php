@@ -1,34 +1,31 @@
 <?php
 
 return [
-    'title' => 'ACTIVITÉS EXTRA-SCOLAIRES',
-    // // HCJB
-    // 'activity1' => [
-    //     'name' => 'HCJB - ONG',
-    //     'info' => [
-    //         'date' => '05/2020 - Présent',
-    //         'location' => 'Curitiba, Brésil',
-    //     ],
-    //     'description' => 'Création d\'un système Web pour contrôler la distribution et le stockage des unités multimédias qui sont distribuées dans tout le pays aux communautés difficiles à atteindre'
-    // ],
-    
-    // FRC5800
-    'activity2' => [
-        'name' => 'FRC5800 - Équipe de Robotique',
+    'title' => 'Stage Curriculaire Obligatoire',
+    'activity1' => [
+        'name' => 'Restauration Collective Mais Natural',
         'info' => [
-            'date' => '11/2016 - 01/2019',
-            'location' => 'IFSC - Florianópolis, Brésil',
+            'date' => '10/2019 - 12/2019',
+            'location' => 'Florianópolis, Brésil',
         ],
-        'description' => 'Participation au concours FIRST en Floride, USA en tant que traductrice en plus de mes autres activités techniques. J\'ai donné des ateliers d\'initiation à la robotique sur les autres camps de l\'Institut Fédéral dans plusieurs villes de l\'état.'
+        'description' => 'Lors de mon stage en restauration collective, j\'ai assuré la réception, le stockage et le contrôle des stocks à l\'aide de tableaux Excel, veillé à la qualité, à la sécurité et à l\'hygiène des aliments, et formé le personnel aux bonnes pratiques.'
+    ],
+    
+    'activity2' => [
+        'name' => 'Hôpital Régional Dr. Homero de Miranda Gomes',
+        'info' => [
+            'date' => '08/2019 - 10/2019',
+            'location' => 'São José, Brésil',
+        ],
+        'description' => 'Lors de mon stage à l\'hôpital, j\'ai réalisé l\'évaluation et le diagnostic de l\'état nutritionnel des patients, prescrit des régimes et des thérapies hospitalières, assuré le suivi de l\'évolution clinique et élaboré des orientations nutritionnelles adaptées.'
     ],
 
-    // ISEP
     'activity3' => [
-        'name' => 'ISEP - Institut Supérieur d\'Ingénierie de Porto',
+        'name' => 'Unité Basique de Santé - Passa Vinte',
         'info' => [
-            'date' => '09/2017 - 01/2018',
-            'location' => 'Porto, Portugal',
+            'date' => '03/2019 - 05/2019',
+            'location' => 'Palhoça, Brésil',
         ],
-        'description' => 'Assistance au développement et à l\'amélioration de la plateforme VISIR+ à travers un échange culturel et technique. Développement d\'une plate-forme Web unifiée où les étudiants pouvaient accéder aux cours et aussi obtenir plus d\'informations sur l\'utilisation de VISIR+.'
+        'description' => 'Au cours de mon stage, j\'ai assuré l\'orientation nutritionnelle individualisée des patients, réalisé le dépistage au sein de la communauté et participé à l\'élaboration ainsi qu\'à la mise en place d\'activités éducatives.'
     ],
 ];

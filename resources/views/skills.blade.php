@@ -21,15 +21,4 @@
     <div class="skill"> {{ __('skills.hard.skill7') }} </div>
     <div class="skill"> {{ __('skills.hard.skill8') }} </div>
     <div class="skill"> {{ __('skills.hard.skill9') }} </div>
-    <div class="skill"> {{ __('skills.hard.skill10') }} </div>
-</div>
-
-<div class="skillset">
-    <div class="subtitle"> {{ __('skills.tools.title') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool1') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool2') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool3') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool4') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool5') }} </div>
-    <div class="skill"> {{ __('skills.tools.tool6') }} </div>
 </div>

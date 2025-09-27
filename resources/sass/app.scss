@@ -95,7 +95,7 @@ page[size="A4"] {
     position: relative;
     right: 260px;
     //bottom: 170px;
-    bottom: 210px;
+    bottom: 190px;
     opacity: 0.7;
 
     height: 200px;
@@ -128,8 +128,8 @@ page[size="A4"] {
     }
 
     .summary {
-        width: 39.5%;
-        max-width: 39.5%;
+        width: 42%;
+        max-width: 42%;
         height: 150px;
         text-align: justify;
 
@@ -159,16 +159,16 @@ page[size="A4"] {
     }
 
     .picture-area {
-        width: 22%;
-        max-width: 22%;
-        height: 150px;
+        width: 24%;
+        max-width: 24%;
+        height: 145px;
 
         .picture {
             object-fit: cover;
             object-position: top;
-            width: 140px;
-            height: 140px;
-            border-radius: 140px;
+            width: 145px;
+            height: 145px;
+            border-radius: 145px;
             float: right;
             border: 2px solid $light-green;
             background-color: rgba(255, 255, 255, 1);
@@ -181,8 +181,8 @@ page[size="A4"] {
         font-size: 12px;
         width: 32.5%;
         text-align: right;
-        height: 150px;
         font-family: 'Ubuntu-Medium';
+        margin-top: 20px;
 
         i {
             font-size: 15px;
@@ -204,8 +204,8 @@ page[size="A4"] {
     }
 
     .left-col {
-        width: 50%;
-        max-width: 50%;
+        width: 55%;
+        max-width: 55%;
         padding-right: 1.65%;
         
         section {
@@ -214,8 +214,8 @@ page[size="A4"] {
     }
 
     .right-col {
-        width: 49%;
-        max-width: 49%;
+        width: 44%;
+        max-width: 44%;
         padding-left: 1.65%;
         border-left: 1px solid $faded-dark-blue;
         padding-right: 5px;

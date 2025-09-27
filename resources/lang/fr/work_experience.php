@@ -3,99 +3,101 @@
 return [
     'title' => 'EXPÉRIENCE PROFESSIONNELLE',
 
-    // Qorvo
-    'qorvo' => [
-        'company_name' => 'Qorvo',
+    // Candle
+    'candle' => [
+        'company_name' => 'Candle - Marketing',
         'pos1' => [
-            'position' => 'Ingénieur Logiciel - Alternance',
+            'position' => 'Marketing - CDI',
             'info' => [
-                'date' => '09/2023 - À ce jour',
-                'location' => 'Toulouse, France',
+                'date' => '06/2023 - Présent',
+                'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement d\'un émulateur virtuel pour les puces UWB de Qorvo, en utilisant C/C++ et UNIX pour simuler les puces et faciliter le test de la stack.',
-                'item2' => 'Intégration des puces dans le framework CI de tests automatiques.',
-                'item3' => 'Conception de l\'architecture de l\'émulateur, capable de fonctionner entièrement sur un hôte Linux.'
+                'item1' => 'Production et montage de vidéos avec Capcut pour les réseaux sociaux, atteignant jusqu\'à 20 millions de vues.',
+                'item2' => 'Planification de contenu et gestion des publications pour 12 entreprises de secteurs variés, avec un suivi efficace via Trello et tableaux Excel.',
+                'item3' => 'Conseil aux clients sur l\'enregistrement de vidéos et stratégies digitales, optimisant performance et engagement.',
             ]
         ]
     ],
     
-    // Capgemini
-    'capgemini' => [
-        'company_name' => 'Capgemini Engineering',
+    // Novidade Saudável
+    'novidade' => [
+        'company_name' => 'Novidade Saudável - E-commerce',
         'pos1' => [
-            'position' => 'Ingénieur Logiciel - Stage',
+            'position' => 'Marketing Nutritionnel - CDI',
             'info' => [
-                'date' => '06/2023 - 09/2023',
-                'location' => 'Toulouse, France',
+                'date' => '11/2020 - 12/2021',
+                'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement de nouvelles fonctionnalités dans les modèles Matlab et scripts de calcul C du système de gestion de vol, en contact direct avec le client.',
-                'item2' => 'Implémentation des scripts python pour la génération d\'un rapport et d\'un graphe des dépendances des modèles Matlab afin de faciliter les développements futurs.'
+                'item1' => 'Production de contenus médiatiques avec les produits pour la promotion et la diffusion sur les réseaux sociaux, suivis par plus de cent mil abonnés.',
+                'item2' => 'Élaboration de recettes et de contenus nutritionnels informatifs. Production et montage de vidéos ainsi que création de contenus graphiques.',
+                'item3' => 'Assistance dans les réponses aux FAQ et au SAV, ainsi que gestion de l\'assistance aux clients via les réseaux sociaux.',
             ]
         ]
     ],
 
-    // Khomp
-    'khomp' => [
-        'company_name' => 'Khomp',
+    // Nutricionista
+    'nutricionista' => [
+        'company_name' => 'Clinique Diététique',
         'pos1' => [
-            'position' => 'Ingénieur Logiciel - CDI',
+            'position' => 'Auto-entrepreneuse',
             'info' => [
-                'date' => '04/2022 - 10/2022',
+                'date' => '04/2020 - 12/2022',
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Chargé d\'assister plusieurs activités de gestion concernant la nouvelle version WebRTC du produit.',
-                'item2' => 'Chargé de restructurer le gitlab de l\'équipe afin de mieux supporter les deux versions du produit.',
-                'item3' => 'Assurer le support de la nouvelle version WebRTC en effectuant des corrections de bugs afin de répondre aux demandes des clients.'
+                'item1' => 'Prospection de clients et promotion via les réseaux sociaux à travers vidéos et publications. Montage, enregistrement, création de contenu et gestion du profil professionnel.',
+                'item2' => 'Consultations nutritionnelles et évaluation physique des patients.',
+                'item3' => 'Élaboration de plans alimentaires personnalisés et prescription de compléments alimentaires.',
+            ]
+        ]
+    ],
+    
+    // Equilibrar
+    'equilibrar' => [
+        'company_name' => 'Épicerie naturelle - Equilibrar',
+        'pos1' => [
+            'position' => 'Nutrition - Stage',
+            'info' => [
+                'date' => '06/2017 - 12/2017',
+                'location' => 'Florianópolis, Brésil',
+            ],
+            'activities' => [
+                'item1' => 'Réception des marchandises, organisation et gestion des stocks.',
+                'item2' => 'Assistance et orientation des clients concernant les produits.'
+            ]
+        ]
+    ],
+
+    // prefeitura
+    'prefeitura' => [
+        'company_name' => 'Préfecture de Florianópolis',
+        'pos1' => [
+            'position' => 'Assistante Administrative - CDI',
+            'info' => [
+                'date' => '06/2015 - 12/2015',
+                'location' => 'Florianópolis, Brésil',
+            ],
+            'activities' => [
+                'item1' => 'Gestion de tableaux excel pour l\'indexation des colléges.',
+                'item2' => 'Support aux colléges dans les questions administratives.',
             ]
         ],
-        'pos2' => [
-            'position' => 'Ingénieur Logiciel - Alternance',
-            'info' => [
-                'date' => '10/2020 - 03/2022',
-                'location' => 'Florianópolis, Brésil',
-            ],
-            'activities' => [
-                'item1' => 'Développement d\'applications C++, PHP et Linux Kernel axées principalement sur la voix sur IP (VoIP) utilisant SIP afin de répondre aux demandes des clients.',
-                'item2' => 'Maintenir et améliorer l\'interface Web et mettre en œuvre de nouvelles fonctionnalités du produit.',
-                'item3' => 'Résolution de bugs via gdb, log et analyse de code.',
-                'item4' => 'Très impliqué dans le Gitlab de l\'équipe afin d\'assurer la coordination et la structuration du développement de l\'équipe.'
-            ]
-        ]
     ],
 
-    // Equipe Digital
-    // 'equipe_digital' => [
-    //     'company_name' => 'Equipe Digital',
-    //     'pos1' => [
-    //         'position' => 'Développeur Web Full Stack - Alternance',
-    //         'info' => [
-    //             'date' => '08/2019 - 10/2020',
-    //             'location' => 'Florianópolis, Brésil',
-    //         ],
-    //         'activities' => [
-    //             'item1' => 'Développement du frontend (CSS, HTML, Javascript) et du backend (PHP) de pages web et d\'applications web en utilisant le framework MVC personnalisé de l\'entreprise.',
-    //             'item2' => 'Très impliqué dans le support à client afin de résoudre les bugs et implémenter de nouvelles fonctionnalités pour les applications.',
-    //             'item3' => 'Gestion, maintenance et développement des bases de données MySQL et des plateformes d\'hébergement Web.'
-    //         ]
-    //     ]
-    // ],
-
-    // Oi
-    'oi' => [
-        'company_name' => 'Oi S.A.',
+    // DVA
+    'dva' => [
+        'company_name' => 'DVA – Concessionnaire Mercedes-Benz',
         'pos1' => [
-            'position' => 'Ingénieur Logiciel - Alternance',
+            'position' => 'Assistante Administrative - Stage',
             'info' => [
-                'date' => '11/2015 - 09/2017',
+                'date' => '02/2013 - 09/2014',
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement d\'applications PHP, Shell et Kernel pour l\'automatisation des tâches liées à la gestion, au monitoring et au diagnostic de machines fournissant des services de télécommunications.',
-                'item2' => 'Développement de systèmes web pour le contrôle et le diagnostic des processus d\'automatisation développés.',
-                'item3' => 'Gestion, maintenance et développement de bases de données MySQL.'
+                'item1' => 'Contrôle et vérification de documents et dossiers.',
+                'item2' => 'Gestion et assitance dans les activités avec office.'
             ]
         ]
     ]

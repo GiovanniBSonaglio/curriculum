@@ -6,36 +6,24 @@ return [
     'title' => 'APTITUDES & COMPÉTENCES',
     'soft' => [
         'title' => 'Soft Skills',
-        'skill1' => 'Travail en équipe',
-        'skill2' => 'Leadership',
-        'skill3' => 'Autogestion',
+        'skill1' => 'Travail en Équipe',
+        'skill2' => 'Autogestion',
+        'skill3' => 'Adaptabilité',
         'skill4' => 'Autodidactisme',
-        'skill5' => 'Apprenant Vite',
-        'skill6' => 'Communication',
-        'skill7' => 'Adaptabilité'
+        'skill5' => 'Communication',
+        'skill6' => 'Relation Client',
+        'skill7' => 'Résolution de Problèmes'
     ],
     'hard' => [
         'title' => 'Hard Skills',
-        'skill1' => 'C & C++',
-        'skill2' => 'PHP',
-        'skill3' => 'Automatisation des Processus',
-        'skill4' => 'Javascript',
-        'skill5' => 'Git',
-        'skill6' => 'Python',
-        'skill7' => 'MySQL',
-        'skill8' => 'Linux',
-        'skill9' => 'Développement Web',
-        'skill10' => 'Logiciel Embarqué',
-        'skill11' => 'Conception & Fabrication de Circuits'
+        'skill1' => 'Réseaux Sociaux',
+        'skill2' => 'Montage Vidéo',
+        'skill3' => 'Outils Office',
+        'skill4' => 'Édition Graphique Vidéo',
+        'skill5' => 'Planification de Contenu',
+        'skill6' => 'Création de Contenus Courts',
+        'skill7' => 'Capcut',
+        'skill8' => 'Canva',
+        'skill9' => 'Trello',
     ],
-    'tools' => [
-        'title' => 'Outils',
-        'tool1' => 'Matlab',
-        'tool2' => 'Altium',
-        'tool3' => 'VSCode',
-        'tool4' => 'Proteus',
-        'tool5' => 'PSIM',
-        'tool6' => 'AutoCAD',
-        'tool7' => 'Quartus'
-    ]
 ];

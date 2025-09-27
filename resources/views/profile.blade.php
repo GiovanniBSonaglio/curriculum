@@ -8,7 +8,7 @@
         <p class="text"> {{ __('profile.summary') }} </p>
     </div>
     <div class="picture-area custom-col">
-        <img class="picture" src="/images/profile-pic.jpeg">
+        <img class="picture" src="/images/profile-pic.jpg">
     </div>
     <div class="contact custom-col">
         {{ __('profile.info') }} <i class="fa-solid fa-user"></i>
@@ -18,9 +18,5 @@
         {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>
         </br>
         {{ __('profile.address') }} <i class="fa-solid fa-location-dot"></i>
-        </br>
-        {{ __('profile.linkedin') }} <i class="fa-brands fa-linkedin"></i>
-        </br>
-        {{ __('profile.github') }} <i class="fa-brands fa-github"></i>
     </div>
 </div>

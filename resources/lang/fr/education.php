@@ -2,38 +2,15 @@
  
 return [
     'title' => 'EDUCATION',
-    // INP - ENSEEIHT
+    // UNISUL
     'degree1' => [
-        'degree' => 'Ingénierie Électrique',
-        'level' => 'BAC +5',
-        'institution' => 'INP - ENSEEIHT',
+        'degree' => 'Diététique et nutrition',
+        'level' => 'BAC +4',
+        'institution' => 'UNISUL',
         'info' => [
-            'date' => '09/2022 - À ce jour',
-            'location' => 'Toulouse, France',
-        ],
-        'observation' => 'Échange avec bourse d\'excellence (Brafitec) avec double diplôme.'
-    ],
-    
-    // UFSC
-    'degree2' => [
-        'degree' => 'Ingénierie Électrique',
-        'level' => 'Formation Ingénieur',
-        'institution' => 'Université Fédérale de Santa Catarina',
-        'info' => [
-            'date' => '01/2019 - À ce jour',
-            'location' => 'Florianópolis, Brésil',
-        ]
-    ],
-
-    // IFSC
-    'degree3' => [
-        'degree' => 'Électronique',
-        'level' => 'Technicien et Baccalauréat',
-        'institution' => 'Institut Fédéral de Santa Catarina',
-        'info' => [
-            'date' => '01/2014 - 12/2018',
+            'date' => '08/2015 - 12/2019',
             'location' => 'Florianópolis, Brésil',
         ],
-        'observation' => 'Cours technique intégré au lycée.'
+        'observation' => 'Formation en nutrition et diététique avec 4 ans de duration et avec 3 stages de 2 mois.'
     ],
 ];

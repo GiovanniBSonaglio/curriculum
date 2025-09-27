@@ -8,6 +8,4 @@ return [
     'mail' => 'giovannibsonaglio@gmail.com',
     'phone' => '+33 07 49 25 19 47',
     'address' => '18 Rue Notre Dame, 31400 - Toulouse',
-    'linkedin' => 'giovanni-bertotti-sonaglio',
-    'github' => 'GiovanniBSonaglio'
 ];
