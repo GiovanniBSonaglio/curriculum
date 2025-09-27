@@ -21166,7 +21166,7 @@ page[size=A4] {
 .corner-shape {
   position: relative;
   right: 260px;
-  bottom: 220px;
+  bottom: 190px;
   opacity: 0.7;
   height: 200px;
   width: 210mm;
@@ -21196,7 +21196,8 @@ page[size=A4] {
   -webkit-print-color-adjust: exact;
 }
 .profile .summary {
-  width: 45%;
+  width: 42%;
+  max-width: 42%;
   height: 150px;
   text-align: justify;
   margin-right: 20px;
@@ -21222,18 +21223,18 @@ page[size=A4] {
   font-size: 12px;
 }
 .profile .picture-area {
-  width: 150px;
-  height: 150px;
+  width: 24%;
+  max-width: 24%;
+  height: 145px;
 }
 .profile .picture-area .picture {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
-  width: 150px;
-  height: 150px;
-  border-radius: 150px;
-  margin-top: -5px;
+  width: 145px;
+  height: 145px;
+  border-radius: 145px;
   float: right;
   border: 2px solid #2CBBAD;
   background-color: rgb(255, 255, 255);
@@ -21244,10 +21245,8 @@ page[size=A4] {
   font-size: 13px;
   width: 30%;
   text-align: right;
-  height: 140px;
-  margin-top: 10px;
-  margin-right: 10px;
   font-family: "Ubuntu-Medium";
+  margin-top: 20px;
 }
 .profile .contact .contact-line {
   margin-bottom: 10px;
@@ -21271,16 +21270,16 @@ page[size=A4] {
   margin-bottom: 13px;
 }
 .main-content .left-col {
-  width: 50%;
-  max-width: 50%;
+  width: 55%;
+  max-width: 55%;
   padding-right: 1.65%;
 }
 .main-content .left-col section {
   margin-left: 7%;
 }
 .main-content .right-col {
-  width: 49%;
-  max-width: 49%;
+  width: 44%;
+  max-width: 44%;
   padding-left: 1.65%;
   border-left: 1px solid rgba(42, 52, 62, 0.2431372549);
   padding-right: 5px;

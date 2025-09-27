@@ -8,23 +8,15 @@
         <p class="text"> {{ __('profile.summary') }} </p>
     </div>
     <div class="picture-area custom-col">
-        <img class="picture" src="/images/profile-pic.jpeg">
+        <img class="picture" src="/images/profile-pic.jpg">
     </div>
     <div class="contact custom-col">
-        <div class="contact-line">
-            {{ __('profile.mail') }} <i class="fa-solid fa-envelope"></i>
-        </div>
-        <div class="contact-line">
-            {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>
-        </div>
-        <div class="contact-line">
-            {{ __('profile.address') }} <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <div class="contact-line">
-            {{ __('profile.linkedin') }} <i class="fa-brands fa-linkedin"></i>
-        </div>
-        <div class="contact-line">
-            {{ __('profile.github') }} <i class="fa-brands fa-github"></i>
-        </div>
+        {{ __('profile.info') }} <i class="fa-solid fa-user"></i>
+        </br>
+        {{ __('profile.mail') }} <i class="fa-solid fa-envelope"></i>
+        </br>
+        {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>
+        </br>
+        {{ __('profile.address') }} <i class="fa-solid fa-location-dot"></i>
     </div>
 </div>
