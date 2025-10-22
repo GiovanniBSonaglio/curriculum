@@ -7,34 +7,46 @@ return [
     'qorvo' => [
         'company_name' => 'Qorvo',
         'pos1' => [
-            'position' => 'Ingénieur Logiciel - Alternance',
+            'position' => 'Ingénieur Applications Logiciel - CDI',
             'info' => [
-                'date' => '09/2023 - À ce jour',
+                'date' => '09/2024 - À ce jour',
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
-                'item1' => 'Développement d\'un émulateur virtuel pour les puces UWB de Qorvo, en utilisant C/C++ et UNIX pour simuler les puces et faciliter le test de la stack.',
-                'item2' => 'Intégration des puces dans le framework CI de tests automatiques.',
-                'item3' => 'Conception de l\'architecture de l\'émulateur, capable de fonctionner entièrement sur un hôte Linux.'
+                'item1' => 'Support, maintenance et développement des differents releases des puces UWB pour les clients, la QA et les FAE.',
+                'item2' => 'Développement d\'application Zephyr pour intégration des puces UWB Qorvo avec Zephyr MCU Host.',
+                'item3' => 'Maintenance et développement des outils d\'évaluation.'
+            ]
+        ],
+        'pos2' => [
+            'position' => 'Ingénieur Logiciel - Alternance',
+            'info' => [
+                'date' => '09/2023 - 08/2024',
+                'location' => 'Toulouse, France',
+            ],
+            'activities' => [
+                'item1' => 'Développement d\'un émulateur virtuel pour les puces UWB de Qorvo, utilisant C/C++ et UNIX pour simuler les use-cases.',
+                'item2' => 'Conception de l\'architecture de l\'émulateur, capable de fonctionner sur un hôte Linux.',
+                'item3' => 'Intégration de l\'émulateur dans le CI pour des tests automatisés.'
             ]
         ]
     ],
     
-    // Capgemini
-    'capgemini' => [
-        'company_name' => 'Capgemini Engineering',
-        'pos1' => [
-            'position' => 'Ingénieur Logiciel - Stage',
-            'info' => [
-                'date' => '06/2023 - 09/2023',
-                'location' => 'Toulouse, France',
-            ],
-            'activities' => [
-                'item1' => 'Développement de nouvelles fonctionnalités dans les modèles Matlab et scripts de calcul C du système de gestion de vol, en contact direct avec le client.',
-                'item2' => 'Implémentation des scripts python pour la génération d\'un rapport et d\'un graphe des dépendances des modèles Matlab afin de faciliter les développements futurs.'
-            ]
-        ]
-    ],
+    // // Capgemini
+    // 'capgemini' => [
+    //     'company_name' => 'Capgemini Engineering',
+    //     'pos1' => [
+    //         'position' => 'Ingénieur Logiciel - Stage',
+    //         'info' => [
+    //             'date' => '06/2023 - 09/2023',
+    //             'location' => 'Toulouse, France',
+    //         ],
+    //         'activities' => [
+    //             'item1' => 'Développement de nouvelles fonctionnalités dans les modèles Matlab et scripts de calcul C du système de gestion de vol, en contact direct avec le client.',
+    //             'item2' => 'Implémentation des scripts python pour la génération d\'un rapport et d\'un graphe des dépendances des modèles Matlab afin de faciliter les développements futurs.'
+    //         ]
+    //     ]
+    // ],
 
     // Khomp
     'khomp' => [
@@ -46,9 +58,9 @@ return [
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Chargé d\'assister plusieurs activités de gestion concernant la nouvelle version WebRTC du produit.',
-                'item2' => 'Chargé de restructurer le gitlab de l\'équipe afin de mieux supporter les deux versions du produit.',
-                'item3' => 'Assurer le support de la nouvelle version WebRTC en effectuant des corrections de bugs afin de répondre aux demandes des clients.'
+                'item1' => 'Assistance dans diverses activités de gestion liées à la nouvelle version WebRTC du produit.',
+                'item2' => 'Restructuration et maintenance du GitLab afin de mieux prendre en charge les deux versions du produit.',
+                'item3' => 'Support et maintenance de la nouvelle version WebRTC.',
             ]
         ],
         'pos2' => [
@@ -58,30 +70,29 @@ return [
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement d\'applications C++, PHP et Linux Kernel axées principalement sur la voix sur IP (VoIP) utilisant SIP afin de répondre aux demandes des clients.',
-                'item2' => 'Maintenir et améliorer l\'interface Web et mettre en œuvre de nouvelles fonctionnalités du produit.',
-                'item3' => 'Résolution de bugs via gdb, log et analyse de code.',
-                'item4' => 'Très impliqué dans le Gitlab de l\'équipe afin d\'assurer la coordination et la structuration du développement de l\'équipe.'
+                'item1' => 'Développement et maintenance du logiciel (C++ et Kernel), principalement axés sur la VoIP.',
+                'item2' => 'Maintenance et amélioration de l\'interface web (PHP / JS).',
+                'item3' => 'Forte implication dans l\'amélioration et la maintenance du GitLab de l\'équipe.',
             ]
         ]
     ],
 
     // Equipe Digital
-    // 'equipe_digital' => [
-    //     'company_name' => 'Equipe Digital',
-    //     'pos1' => [
-    //         'position' => 'Développeur Web Full Stack - Alternance',
-    //         'info' => [
-    //             'date' => '08/2019 - 10/2020',
-    //             'location' => 'Florianópolis, Brésil',
-    //         ],
-    //         'activities' => [
-    //             'item1' => 'Développement du frontend (CSS, HTML, Javascript) et du backend (PHP) de pages web et d\'applications web en utilisant le framework MVC personnalisé de l\'entreprise.',
-    //             'item2' => 'Très impliqué dans le support à client afin de résoudre les bugs et implémenter de nouvelles fonctionnalités pour les applications.',
-    //             'item3' => 'Gestion, maintenance et développement des bases de données MySQL et des plateformes d\'hébergement Web.'
-    //         ]
-    //     ]
-    // ],
+    'equipe_digital' => [
+        'company_name' => 'Equipe Digital',
+        'pos1' => [
+            'position' => 'Développeur Web Full Stack - Alternance',
+            'info' => [
+                'date' => '08/2019 - 10/2020',
+                'location' => 'Florianópolis, Brésil',
+            ],
+            'activities' => [
+                'item1' => 'Développement du frontend (CSS, HTML, JavaScript) et du backend MVC (PHP) pour des pages et applications web.',
+                'item2' => 'Forte implication dans le support client : résolution de bugs et implémentation de nouvelles fonctionnalités.',
+                'item3' => 'Gestion, maintenance et développement de bases de données MySQL et de plateformes d\'hébergement web.',
+            ]
+        ]
+    ],
 
     // Oi
     'oi' => [
@@ -93,9 +104,9 @@ return [
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Développement d\'applications PHP, Shell et Kernel pour l\'automatisation des tâches liées à la gestion, au monitoring et au diagnostic de machines fournissant des services de télécommunications.',
-                'item2' => 'Développement de systèmes web pour le contrôle et le diagnostic des processus d\'automatisation développés.',
-                'item3' => 'Gestion, maintenance et développement de bases de données MySQL.'
+            'item1' => 'Développement d\'applications PHP et Shell pour l\'automatisation de tâches, destinées à des milliers de machines.',
+            'item2' => 'Développement de systèmes web pour le contrôle et le diagnostic des scripts développés.',
+            'item3' => 'Maintenance et développement de bases de données MySQL.',
             ]
         ]
     ]

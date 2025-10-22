@@ -1,6 +1,7 @@
 <div class="title"> {{ __('work_experience.title') }} </div>
 
 <div class="job">
+    <span class="line"></span>
     <div class="company"> 
         {{ __('work_experience.qorvo.company_name') }}
     </div>
@@ -26,6 +27,28 @@
 </div>
 
 <div class="job">
+    <div class="position">
+        <i class="fa-solid fa-circle"></i>
+        {{ __('work_experience.qorvo.pos2.position') }}
+    </div>
+    <div class="info">
+        <div class="left"> {{ __('work_experience.qorvo.pos2.info.date') }} </div>
+        <div class="right"> {{ __('work_experience.qorvo.pos2.info.location') }} </div>
+    </div>
+    <div class="activities">
+        <div class="item">
+            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item1') }}
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item2') }}
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item3') }}
+        </div>
+    </div>
+</div>
+
+{{-- <div class="job">
     <div class="company"> 
         {{ __('work_experience.capgemini.company_name') }}
     </div>
@@ -45,7 +68,7 @@
             <i class="fa-solid fa-square"></i> {{ __('work_experience.capgemini.pos1.activities.item2') }}
         </div>
     </div>
-</div>
+</div> --}}
 
 <div class="job">
     <span class="line"></span>
@@ -92,13 +115,10 @@
         <div class="item">
             <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos2.activities.item3') }}
         </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos2.activities.item4') }}
-        </div>
     </div>
 </div>
 
-{{-- <div class="job">
+<div class="job">
     <div class="company"> 
         {{ __('work_experience.equipe_digital.company_name') }}
     </div>
@@ -121,7 +141,7 @@
             <i class="fa-solid fa-square"></i> {{ __('work_experience.equipe_digital.pos1.activities.item3') }}
         </div>
     </div>
-</div> --}}
+</div>
 
 <div class="job">
     <div class="company"> 

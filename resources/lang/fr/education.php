@@ -8,7 +8,7 @@ return [
         'level' => 'BAC +5',
         'institution' => 'INP - ENSEEIHT',
         'info' => [
-            'date' => '09/2022 - À ce jour',
+            'date' => '09/2022 - 09/2024',
             'location' => 'Toulouse, France',
         ],
         'observation' => 'Échange avec bourse d\'excellence (Brafitec) avec double diplôme.'
@@ -20,7 +20,7 @@ return [
         'level' => 'Formation Ingénieur',
         'institution' => 'Université Fédérale de Santa Catarina',
         'info' => [
-            'date' => '01/2019 - À ce jour',
+            'date' => '01/2019 - 09/2024',
             'location' => 'Florianópolis, Brésil',
         ]
     ],

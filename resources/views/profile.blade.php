@@ -11,8 +11,6 @@
         <img class="picture" src="/images/profile-pic.jpeg">
     </div>
     <div class="contact custom-col">
-        {{ __('profile.info') }} <i class="fa-solid fa-user"></i>
-        </br>
         {{ __('profile.mail') }} <i class="fa-solid fa-envelope"></i>
         </br>
         {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>

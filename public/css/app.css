@@ -21147,10 +21147,6 @@ page[size=A4] {
   display: flex; /* equal height of the children */
 }
 
-.custom-col {
-  flex: 1;
-}
-
 .random-shape {
   position: relative;
   margin-top: -187px;
@@ -21184,7 +21180,7 @@ page[size=A4] {
   height: -moz-fit-content;
   height: fit-content;
   border-bottom: 2px solid #2CBBAD;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   z-index: 10;
 }
 .profile .decoration {
@@ -21200,10 +21196,10 @@ page[size=A4] {
   -webkit-print-color-adjust: exact;
 }
 .profile .summary {
-  width: 39.5%;
-  max-width: 39.5%;
+  width: 45%;
   height: 150px;
   text-align: justify;
+  margin-right: 20px;
 }
 .profile .summary p {
   margin-bottom: 0px;
@@ -21226,8 +21222,7 @@ page[size=A4] {
   font-size: 12px;
 }
 .profile .picture-area {
-  width: 22%;
-  max-width: 22%;
+  width: 150px;
   height: 150px;
 }
 .profile .picture-area .picture {
@@ -21235,9 +21230,10 @@ page[size=A4] {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
-  width: 140px;
-  height: 140px;
-  border-radius: 140px;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-top: -5px;
   float: right;
   border: 2px solid #2CBBAD;
   background-color: rgb(255, 255, 255);
@@ -21246,9 +21242,10 @@ page[size=A4] {
 }
 .profile .contact {
   font-size: 12px;
-  width: 32.5%;
+  width: 30%;
   text-align: right;
-  height: 150px;
+  height: 140px;
+  margin-top: 10px;
   font-family: "Ubuntu-Medium";
 }
 .profile .contact i {
@@ -21274,7 +21271,7 @@ page[size=A4] {
   padding-right: 1.65%;
 }
 .main-content .left-col section {
-  margin-left: 10%;
+  margin-left: 7%;
 }
 .main-content .right-col {
   width: 49%;
@@ -21299,7 +21296,7 @@ page[size=A4] {
   -webkit-print-color-adjust: exact;
   height: 100%;
   position: absolute;
-  left: -20px;
+  left: -14px;
   top: 25px;
 }
 .main-content .work-experiences .job .company {
@@ -21313,7 +21310,7 @@ page[size=A4] {
 }
 .main-content .work-experiences .job .position .fa-circle {
   position: absolute;
-  left: -7%;
+  left: -5%;
   top: 5.5px;
   color: #2CBBAD;
   font-size: 11px;
@@ -21346,7 +21343,7 @@ page[size=A4] {
   margin-bottom: 5px;
 }
 .main-content .languages {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .main-content .languages .title {
   margin-bottom: 5px;
@@ -21459,6 +21456,9 @@ page[size=A4] {
 .main-content .education .course .activities .item, .main-content .extracurricular .course .activities .item {
   margin-bottom: 5px;
 }
+.main-content .skills-section {
+  margin-top: 20px;
+}
 .main-content .skills-section .skillset {
   margin-top: 5px;
 }
@@ -21481,7 +21481,7 @@ page[size=A4] {
   margin: 3px 0px;
 }
 .main-content .extracurricular {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .main-content .extracurricular .course .degree {
   font-size: 14px;

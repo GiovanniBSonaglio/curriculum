@@ -8,6 +8,7 @@
     <div class="skill"> {{ __('skills.soft.skill5') }} </div>
     <div class="skill"> {{ __('skills.soft.skill6') }} </div>
     <div class="skill"> {{ __('skills.soft.skill7') }} </div>
+    <div class="skill"> {{ __('skills.soft.skill8') }} </div>
 </div>
 
 <div class="skillset">
@@ -22,6 +23,7 @@
     <div class="skill"> {{ __('skills.hard.skill8') }} </div>
     <div class="skill"> {{ __('skills.hard.skill9') }} </div>
     <div class="skill"> {{ __('skills.hard.skill10') }} </div>
+    <div class="skill"> {{ __('skills.hard.skill11') }} </div>
 </div>
 
 <div class="skillset">
