@@ -30,7 +30,7 @@ return [
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Production de contenus médiatiques avec les produits pour la promotion et la diffusion sur les réseaux sociaux, suivis par plus de cent mil abonnés.',
+                'item1' => 'Production de contenus médiatiques avec les produits pour la promotion et la diffusion sur les réseaux sociaux, suivis par plus de cent mille abonnés.',
                 'item2' => 'Élaboration de recettes et de contenus nutritionnels informatifs. Production et montage de vidéos ainsi que création de contenus graphiques.',
                 'item3' => 'Assistance dans les réponses aux FAQ et au SAV, ainsi que gestion de l\'assistance aux clients via les réseaux sociaux.',
             ]
@@ -80,8 +80,8 @@ return [
                 'location' => 'Florianópolis, Brésil',
             ],
             'activities' => [
-                'item1' => 'Gestion de tableaux excel pour l\'indexation des colléges.',
-                'item2' => 'Support aux colléges dans les questions administratives.',
+                'item1' => 'Gestion de tableaux excel pour l\'indexation des collèges.',
+                'item2' => 'Support aux collèges dans les questions administratives.',
             ]
         ],
     ],

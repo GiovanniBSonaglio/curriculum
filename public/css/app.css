@@ -21270,19 +21270,22 @@ page[size=A4] {
   margin-bottom: 13px;
 }
 .main-content .left-col {
-  width: 55%;
-  max-width: 55%;
+  width: 44%;
+  max-width: 44%;
   padding-right: 1.65%;
 }
 .main-content .left-col section {
-  margin-left: 7%;
+  margin-left: 5%;
 }
 .main-content .right-col {
-  width: 44%;
-  max-width: 44%;
-  padding-left: 1.65%;
+  width: 55%;
+  max-width: 55%;
+  padding-left: 2%;
   border-left: 1px solid rgba(42, 52, 62, 0.2431372549);
   padding-right: 5px;
+}
+.main-content .right-col section {
+  margin-left: 5%;
 }
 .main-content .title {
   font-family: "Ubuntu-Bold";

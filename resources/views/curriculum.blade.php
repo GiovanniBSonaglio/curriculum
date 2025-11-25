@@ -24,26 +24,32 @@
             <div class="main-content">
                 <div class="custom-row">
                     <div class="left-col custom-col">
-                        <section class="work-experiences">
-                            @include('work_experience')
-                        </section>
-                    </div>
-                    <div class="right-col custom-col">
                         <section class="education">
                             @include('education')
                         </section>
                         <section class="skills-section">
                             @include('skills')
                         </section>
-                        <section class="extracurricular">
+                        {{-- <section class="extracurricular">
                             @include('extracurricular')
-                        </section>
+                        </section> --}}
                         <section class="languages">
                             @include('languages')
                         </section>
                         <section class="references">
                             @include('references')
                         </section>
+                    </div>
+                    <div class="right-col custom-col">
+                        <section class="work-experiences">
+                            @include('work_experience')
+                        </section>
+
+                        <!-- 
+                        <section class="references">
+                            @include('references')
+                        </section>
+                        -->
                     </div>
                 </div>
             </div>

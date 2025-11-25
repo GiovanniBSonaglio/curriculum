@@ -210,21 +210,25 @@ page[size="A4"] {
     }
 
     .left-col {
-        width: 55%;
-        max-width: 55%;
+        width: 44%;
+        max-width: 44%;
         padding-right: 1.65%;
-        
+
         section {
-            margin-left: 7%;
+            margin-left: 5%;
         }
     }
 
     .right-col {
-        width: 44%;
-        max-width: 44%;
-        padding-left: 1.65%;
+        width: 55%;
+        max-width: 55%;
+        padding-left: 2%;
         border-left: 1px solid $faded-dark-blue;
         padding-right: 5px;
+
+        section {
+            margin-left: 5%;
+        }
     }
 
     .title {

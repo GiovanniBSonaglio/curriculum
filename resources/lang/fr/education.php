@@ -1,7 +1,7 @@
 <?php
  
 return [
-    'title' => 'EDUCATION',
+    'title' => 'FORMATION',
     // UNISUL
     'degree1' => [
         'degree' => 'Diététique et nutrition',
