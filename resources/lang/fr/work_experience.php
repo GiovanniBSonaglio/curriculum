@@ -13,9 +13,9 @@ return [
                 'location' => 'Toulouse, France',
             ],
             'activities' => [
-                'item1' => 'Support, maintenance et développement des differents releases des puces UWB pour les clients, la QA et les FAE.',
-                'item2' => 'Développement d\'application Zephyr pour intégration des puces UWB Qorvo avec Zephyr MCU Host.',
-                'item3' => 'Maintenance et développement des outils d\'évaluation.'
+                'item1' => 'Development of Zephyr-based applications to integrate Qorvo chips with MCU hosts.',
+                'item2' => 'Developed C and Python-based POCs and evaluation tools to validate new features and provide clear implementation examples for customer integrations.',
+                'item3' => 'Provided support to QA and FAE teams, while writing documentation to facilitate adoption of UWB technologies by partners.',
             ]
         ],
         'pos2' => [

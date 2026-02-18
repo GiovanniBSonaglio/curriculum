@@ -8,7 +8,6 @@ return [
         'level' => 'BAC +5',
         'institution' => 'INP - ENSEEIHT',
         'info' => [
-            'date' => '09/2022 - Present',
             'location' => 'Toulouse, France',
         ],
         'observation' => 'Exchange with excellence scholarship (Brafitec) for a double degree.'
@@ -22,7 +21,8 @@ return [
         'info' => [
             'date' => '01/2019 - Present',
             'location' => 'Florianópolis, Brazil',
-        ]
+        ],
+        'observation' => 'Awarded top of the class for the highest academic standing.'
     ],
 
     // IFSC
@@ -31,7 +31,6 @@ return [
         'level' => 'Technician',
         'institution' => 'Federal Institute of Santa Catarina',
         'info' => [
-            'date' => '01/2014 - 12/2018',
             'location' => 'Florianópolis, Brazil',
         ],
         'observation' => 'Technical course integrated with high school.'

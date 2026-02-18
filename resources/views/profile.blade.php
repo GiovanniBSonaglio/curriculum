@@ -11,14 +11,20 @@
         <img class="picture" src="/images/profile-pic.jpeg">
     </div>
     <div class="contact custom-col">
-        {{ __('profile.mail') }} <i class="fa-solid fa-envelope"></i>
-        </br>
-        {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>
-        </br>
-        {{ __('profile.address') }} <i class="fa-solid fa-location-dot"></i>
-        </br>
-        {{ __('profile.linkedin') }} <i class="fa-brands fa-linkedin"></i>
-        </br>
-        {{ __('profile.github') }} <i class="fa-brands fa-github"></i>
+        <div class="contact-line">
+            {{ __('profile.mail') }} <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="contact-line">
+            {{ __('profile.phone') }} <i class="fa-solid fa-mobile"></i>
+        </div>
+        <div class="contact-line">
+            {{ __('profile.address') }} <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="contact-line">
+            {{ __('profile.linkedin') }} <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="contact-line">
+            {{ __('profile.github') }} <i class="fa-brands fa-github"></i>
+        </div>
     </div>
 </div>

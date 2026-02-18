@@ -178,17 +178,23 @@ page[size="A4"] {
     }
 
     .contact {
-        font-size: 12px;
+        font-size: 13px;
         width: 30%;
         text-align: right;
         height: 140px;
         margin-top: 10px;
+        margin-right: 10px;
         font-family: 'Ubuntu-Medium';
+
+        .contact-line {
+            margin-bottom: 10px;
+        }
 
         i {
             font-size: 15px;
-            margin: 5px 10px;
             color: $dark-blue;
+            vertical-align: middle;
+            margin-left: 5px;
         }
     }
 }

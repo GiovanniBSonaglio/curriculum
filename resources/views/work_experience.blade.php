@@ -42,9 +42,6 @@
         <div class="item">
             <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item2') }}
         </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item3') }}
-        </div>
     </div>
 </div>
 
@@ -136,9 +133,6 @@
         </div>
         <div class="item">
             <i class="fa-solid fa-square"></i> {{ __('work_experience.equipe_digital.pos1.activities.item2') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.equipe_digital.pos1.activities.item3') }}
         </div>
     </div>
 </div>
