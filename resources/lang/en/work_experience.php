@@ -15,11 +15,9 @@ return [
                         'location' => 'Toulouse, France',
                     ],
                     'activities' => [
-                        'Development of embedded C applications for Ultra-Wideband (UWB) chip validation and feature prototyping.',
+                        'Development of embedded C applications for UWB chip validation and feature prototyping and development of python-based automation tools to support validation and PoCs.',
                         'Design and implementation of RTOS-based firmware integrating Qorvo UWB transceivers with external MCU hosts.',
-                        'Development of Python-based automation tools to support validation, demonstrations, and proof-of-concept platforms.',
-                        'Support to QA and Field Application Engineers (FAE) for customer integration and debugging.',
-                        'Analysis and troubleshooting of hardware-software interaction issues in real-time environments.',
+                        'Support to QA and FAEs for customer integration and debugging. Analysis and troubleshooting of hardware-software interaction issues in real-time environments.',
                         'Production of technical documentation and integration guidelines for customer adoption.',
                     ]
                 ],
@@ -30,8 +28,7 @@ return [
                         'location' => 'Toulouse, France',
                     ],
                     'activities' => [
-                        'Designed and implemented a full C/C++ chip emulator for UNIX systems to enable hardware-independent firmware testing.',
-                        'Emulator developed reproduces chip behavior at software level to support early feature validation and enables CI-based automated testing without dependency on physical hardware.',
+                        'Designed the architecture and implemented a full C/C++ chip emulator for UNIX systems, reproducing chip behavior at software level to support feature validation and enables CI-based automated testing without dependency on physical hardware.',
                         'Collaborated with firmware and validation teams to align emulator behavior with specifications.',
                     ]
                 ]
@@ -54,7 +51,7 @@ return [
         //         ]
         //     ]
         // ],
-        
+
         // Khomp
         'khomp' => [
             'company_name' => 'Khomp',
@@ -66,9 +63,9 @@ return [
                         'location' => 'Florianópolis, Brazil',
                     ],
                     'activities' => [
-                        'Highly involved in architecture and technical decision meetings to support integration and deployment of a new major release.',
-                        'Continued involvement in Linux, C/C++ and web development and maintenance of the vSBC system.',
-                        'Collaborated on customer issue analysis and debugging in production telecom environments.'
+                        'C/C++ development for Khomp\'s Virtual Session Border Controller (vSBC), a Linux-based telecom infrastructure platform handling VoIP/SIP traffic.',
+                        'Contributed to the release of a major software version introducing WebRTC support and architectural updates',
+                        'Performed debugging and root-cause analysis in production telecom environments and provided technical support during customer integrations and large-scale deployments.'
                     ]
                 ],
                 [
@@ -78,9 +75,9 @@ return [
                         'location' => 'Florianópolis, Brazil',
                     ],
                     'activities' => [
-                        'C/C++ and Linux kernel development and maintenance of the Virtual Session Border Controller (vSBC) product.',
-                        'Web development (PHP/JS) of interface for interaction with the vSBC software.',
-                        'Highly involved with Git/GitLab workflows, version control, and CI processes.'
+                        'Contributed to the development and maintenance of the vSBC, written primarily in C/C++. Also contributed to kernel-level and system-level debugging.',
+                        'Assisted in maintaining and extending the web-based management interface (PHP / JavaScript).',
+                        'Worked within Git/GitLab workflows and CI pipelines for version control and automated builds.'
                     ]
                 ]
             ]
@@ -115,9 +112,8 @@ return [
                         'location' => 'Florianópolis, Brazil',
                     ],
                     'activities' => [
-                        'Development of PHP and shell applications for automatization of tasks related to the company\'s telecom infrastructure.',
-                        'Development of web systems (PHP/JS) for control and diagnosis of the automation processes developed.',
-                        'Management, maintenance and development of databases.'
+                        'Contributed to improving operational efficiency trough development of automation tools using PHP and Shell scripting for monitoring and management of telecom backbone infrastructure. Built internal web systems for control, diagnostics, and visualization of the automated processes.',
+                        'Supported development and maintenance of MySQL databases used by monitoring tools.',
                     ]
                 ]
             ]
