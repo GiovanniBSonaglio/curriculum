@@ -395,28 +395,24 @@ page[size="A4"] {
     }
 
     .education, .extracurricular {
-        .course {
+        .activity {
             color: $black;
             margin: 10px 0;
             position: relative;
-        
-            .degree {
+
+            .title {
                 font-family: 'Ubuntu-Bold';
                 font-size: 16px;
                 position: relative;
             }
 
-            .institution {
-                font-family: 'Ubuntu-Medium';
-                font-size: 14px;
-            }
-            
             .info {
                 font-family: 'Ubuntu-Medium';
                 color: $light-green;
                 font-size: 12px;
-                float: right;
+                width: 100%;
                 margin-top: 3px;
+                display: inline-block;
 
                 .left {
                     float: left;
@@ -427,7 +423,7 @@ page[size="A4"] {
                 }
             }
 
-            .activities {
+            .description {
                 font-family: 'Ubuntu-Regular';
                 font-size: 12px;
                 text-align: justify;

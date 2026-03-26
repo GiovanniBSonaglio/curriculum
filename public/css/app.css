@@ -21420,44 +21420,52 @@ page[size=A4] {
   font-size: 12px;
   text-align: justify;
 }
-.main-content .education .course, .main-content .extracurricular .course {
+.main-content .education .course, .main-content .extracurricular .activity {
   color: #000;
   margin: 10px 0;
   position: relative;
 }
-.main-content .education .course .degree, .main-content .extracurricular .course .degree {
+.main-content .education .course .degree, .main-content .extracurricular .activity .title {
   font-family: "Ubuntu-Bold";
   font-size: 16px;
   position: relative;
 }
-.main-content .education .course .institution, .main-content .extracurricular .course .institution {
+.main-content .education .course .institution, .main-content .extracurricular .activity .institution {
   font-family: "Ubuntu-Medium";
   font-size: 14px;
 }
-.main-content .education .course .info, .main-content .extracurricular .course .info {
+.main-content .education .course .info {
   font-family: "Ubuntu-Medium";
   color: #2CBBAD;
   font-size: 12px;
   float: right;
   margin-top: 3px;
 }
-.main-content .education .course .info .left, .main-content .extracurricular .course .info .left {
+.main-content .extracurricular .activity .info {
+  font-family: "Ubuntu-Medium";
+  color: #2CBBAD;
+  font-size: 12px;
+  width: 100%;
+  margin-top: 3px;
+  display: inline-block;
+}
+.main-content .education .course .info .left, .main-content .extracurricular .activity .info .left {
   float: left;
 }
-.main-content .education .course .info .right, .main-content .extracurricular .course .info .right {
+.main-content .education .course .info .right, .main-content .extracurricular .activity .info .right {
   float: right;
 }
-.main-content .education .course .activities, .main-content .extracurricular .course .activities {
+.main-content .education .course .activities, .main-content .extracurricular .activity .description {
   font-family: "Ubuntu-Regular";
   font-size: 12px;
   text-align: justify;
 }
-.main-content .education .course .activities i, .main-content .extracurricular .course .activities i {
+.main-content .education .course .activities i, .main-content .extracurricular .activity .description i {
   color: #2CBBAD;
   font-size: 8px;
   line-height: 12px;
 }
-.main-content .education .course .activities .item, .main-content .extracurricular .course .activities .item {
+.main-content .education .course .activities .item, .main-content .extracurricular .activity .description .item {
   margin-bottom: 5px;
 }
 .main-content .skills-section {
