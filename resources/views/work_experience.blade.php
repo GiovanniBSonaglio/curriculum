@@ -3,11 +3,13 @@
 @foreach (\Lang::get('work_experience.experiences') as $job)
     @foreach ($job['positions'] as $key => $position)
         <div class="job">
+            @if($key == 0)
+            <div class="company">
+                {{ $job['company_name'] }}
+            </div>
+            @endif
             @if(isset($job['positions'][$key+1]))
                 <span class="line"></span>
-                <div class="company">
-                    {{ $job['company_name'] }}
-                </div>
             @endif
             <div class="position">
                 <i class="fa-solid fa-circle"></i>
