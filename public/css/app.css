@@ -21438,8 +21438,7 @@ page[size=A4] {
   font-family: "Ubuntu-Medium";
   color: #2CBBAD;
   font-size: 12px;
-  display: inline-block;
-  width: 100%;
+  float: right;
   margin-top: 3px;
 }
 .main-content .education .course .info .left, .main-content .extracurricular .course .info .left {
