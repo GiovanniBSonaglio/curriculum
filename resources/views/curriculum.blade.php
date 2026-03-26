@@ -19,7 +19,7 @@
         <page size="A4">
             <img class="random-shape" src="/images/shape.svg">
             <div class="profile">
-                @include('profile') 
+                @include('profile')
             </div>
             <div class="main-content">
                 <div class="custom-row">
@@ -27,12 +27,6 @@
                         <section class="work-experiences">
                             @include('work_experience')
                         </section>
-
-                        <!-- 
-                        <section class="references">
-                            @include('references')
-                        </section>
-                        -->
                     </div>
                     <div class="right-col custom-col">
                         <section class="education">
@@ -46,6 +40,9 @@
                         </section>
                         <section class="languages">
                             @include('languages')
+                        </section>
+                        <section class="references">
+                            @include('references')
                         </section>
                     </div>
                 </div>

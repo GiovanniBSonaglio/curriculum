@@ -249,12 +249,12 @@ page[size="A4"] {
                 left: -14px;
                 top: 25px;
             }
-        
+
             .company {
                 font-family: 'Ubuntu-Bold';
                 font-size: 16px;
             }
-            
+
             .position {
                 position: relative;
                 font-family: 'Ubuntu-Medium';
@@ -268,7 +268,7 @@ page[size="A4"] {
                     font-size: 11px;
                 }
             }
-            
+
             .info {
                 font-family: 'Ubuntu-Medium';
                 color: $light-green;
@@ -307,7 +307,8 @@ page[size="A4"] {
     
 
     .languages {
-        margin: 20px 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
 
         .title {
             margin-bottom: 5px;
@@ -355,41 +356,23 @@ page[size="A4"] {
     .references {
         .reference {
             color: $black;
-            margin: 10px 0;
+            margin-bottom: 5px;
             position: relative;
-        
-            .company {
+
+            .name {
                 font-family: 'Ubuntu-Bold';
-                font-size: 16px;
+                font-size: 14px;
+
+                .fa-square {
+                    color: $light-green;
+                    font-size: 8px;
+                    line-height: 14px;
+                }
             }
-            
-            .position {
-                position: relative;
+
+            .contact {
                 font-family: 'Ubuntu-Medium';
                 font-size: 14px;
-            }
-            
-            .info {
-                font-family: 'Ubuntu-Medium';
-                color: $light-green;
-                font-size: 12px;
-                display: inline-block;
-                width: 100%;
-                margin-top: 3px;
-
-                .left {
-                    float: left;
-                }
-
-                .right {
-                    float: right;
-                }
-            }
-
-            .activities {
-                font-family: 'Ubuntu-Regular';
-                font-size: 12px;
-                text-align: justify;
             }
         }
     }

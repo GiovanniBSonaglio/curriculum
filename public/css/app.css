@@ -21348,7 +21348,8 @@ page[size=A4] {
   margin-bottom: 5px;
 }
 .main-content .languages {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .main-content .languages .title {
   margin-bottom: 5px;
@@ -21392,33 +21393,18 @@ page[size=A4] {
   margin: 10px 0;
   position: relative;
 }
-.main-content .references .reference .company {
-  font-family: "Ubuntu-Bold";
-  font-size: 16px;
+.main-content .references .reference .fa-square {
+  color: #2CBBAD;
+  font-size: 8px;
+  line-height: 14px;
 }
-.main-content .references .reference .position {
-  position: relative;
-  font-family: "Ubuntu-Medium";
+.main-content .references .reference .name {
+  font-family: "Ubuntu-Bold";
   font-size: 14px;
 }
-.main-content .references .reference .info {
+.main-content .references .reference .contact {
   font-family: "Ubuntu-Medium";
-  color: #2CBBAD;
-  font-size: 12px;
-  display: inline-block;
-  width: 100%;
-  margin-top: 3px;
-}
-.main-content .references .reference .info .left {
-  float: left;
-}
-.main-content .references .reference .info .right {
-  float: right;
-}
-.main-content .references .reference .activities {
-  font-family: "Ubuntu-Regular";
-  font-size: 12px;
-  text-align: justify;
+  font-size: 14px;
 }
 .main-content .education .course, .main-content .extracurricular .activity {
   color: #000;
