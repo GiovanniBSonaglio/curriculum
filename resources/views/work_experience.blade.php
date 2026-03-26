@@ -1,165 +1,29 @@
 <div class="title"> {{ __('work_experience.title') }} </div>
 
-<div class="job">
-    <span class="line"></span>
-    <div class="company"> 
-        {{ __('work_experience.qorvo.company_name') }}
-    </div>
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.qorvo.pos1.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.qorvo.pos1.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.qorvo.pos1.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos1.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos1.activities.item2') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos1.activities.item3') }}
-        </div>
-    </div>
-</div>
-
-<div class="job">
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.qorvo.pos2.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.qorvo.pos2.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.qorvo.pos2.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.qorvo.pos2.activities.item2') }}
-        </div>
-    </div>
-</div>
-
-{{-- <div class="job">
-    <div class="company"> 
-        {{ __('work_experience.capgemini.company_name') }}
-    </div>
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.capgemini.pos1.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.capgemini.pos1.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.capgemini.pos1.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.capgemini.pos1.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.capgemini.pos1.activities.item2') }}
-        </div>
-    </div>
-</div> --}}
-
-<div class="job">
-    <span class="line"></span>
-    <div class="company"> 
-        {{ __('work_experience.khomp.company_name') }}
-    </div>
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.khomp.pos1.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.khomp.pos1.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.khomp.pos1.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos1.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos1.activities.item2') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos1.activities.item3') }}
-        </div>
-    </div>
-</div>
-
-<div class="job">
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.khomp.pos2.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.khomp.pos2.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.khomp.pos2.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos2.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos2.activities.item2') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.khomp.pos2.activities.item3') }}
-        </div>
-    </div>
-</div>
-
-<div class="job">
-    <div class="company"> 
-        {{ __('work_experience.equipe_digital.company_name') }}
-    </div>
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.equipe_digital.pos1.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.equipe_digital.pos1.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.equipe_digital.pos1.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.equipe_digital.pos1.activities.item1') }}
-        </div>
-        <div class="item">
-            <i class="fa-solid fa-square"></i> {{ __('work_experience.equipe_digital.pos1.activities.item2') }}
-        </div>
-    </div>
-</div>
-
-<div class="job">
-    <div class="company"> 
-        {{ __('work_experience.oi.company_name') }}
-    </div>
-    <div class="position">
-        <i class="fa-solid fa-circle"></i>
-        {{ __('work_experience.oi.pos1.position') }}
-    </div>
-    <div class="info">
-        <div class="left"> {{ __('work_experience.oi.pos1.info.date') }} </div>
-        <div class="right"> {{ __('work_experience.oi.pos1.info.location') }} </div>
-    </div>
-    <div class="activities">
-        <div class="activities">
-            <div class="item">
-                <i class="fa-solid fa-square"></i> {{ __('work_experience.oi.pos1.activities.item1') }}
+@foreach (\Lang::get('work_experience.experiences') as $job)
+    @foreach ($job['positions'] as $key => $position)
+        <div class="job">
+            @if(isset($job['positions'][$key+1]))
+                <span class="line"></span>
+                <div class="company">
+                    {{ $job['company_name'] }}
+                </div>
+            @endif
+            <div class="position">
+                <i class="fa-solid fa-circle"></i>
+                {{ $position['position'] }}
             </div>
-            <div class="item">
-                <i class="fa-solid fa-square"></i> {{ __('work_experience.oi.pos1.activities.item2') }}
+            <div class="info">
+                <div class="left"> {{ $position['info']['date'] }} </div>
+                <div class="right"> {{ $position['info']['location'] }} </div>
             </div>
-            <div class="item">
-                <i class="fa-solid fa-square"></i> {{ __('work_experience.oi.pos1.activities.item3') }}
+            <div class="activities">
+                @foreach ($position['activities'] as $activities)
+                    <div class="item">
+                        <i class="fa-solid fa-square"></i> {{ $activities }}
+                    </div>
+                @endforeach
             </div>
         </div>
-    </div>
-</div>
+    @endforeach
+@endforeach
