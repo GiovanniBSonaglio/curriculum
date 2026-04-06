@@ -5,6 +5,6 @@ return [
     'languages' => [
         'Portuguese' => 'Native Language',
         'English' => 'Full proficiency (C1 - Linguaskill)',
-        'French' => 'Advanced Proficiency (B2 - DELF)'
+        'French' => 'Full Proficiency (DELF)'
     ]
 ];
