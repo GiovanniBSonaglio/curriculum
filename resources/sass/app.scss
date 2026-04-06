@@ -377,7 +377,50 @@ page[size="A4"] {
         }
     }
 
-    .education, .extracurricular {
+    .education {
+        .course {
+            color: $black;
+            margin: 10px 0;
+            position: relative;
+
+            .degree {
+                font-family: 'Ubuntu-Bold';
+                font-size: 16px;
+                position: relative;
+            }
+
+            .info {
+                font-family: 'Ubuntu-Medium';
+                color: $light-green;
+                font-size: 12px;
+                margin-top: 3px;
+                float: right;
+            }
+
+            .institution {
+                font-family: "Ubuntu-Medium";
+                font-size: 14px;
+            }
+
+            .activities {
+                font-family: 'Ubuntu-Regular';
+                font-size: 12px;
+                text-align: justify;
+
+                i {
+                    color: $light-green;
+                    font-size: 8px;
+                    line-height: 12px;
+                }
+
+                .item {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .extracurricular {
         .activity {
             color: $black;
             margin: 10px 0;
