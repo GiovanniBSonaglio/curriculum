@@ -8,10 +8,10 @@ return [
         'Hard Skills' => [
             'C & C++',
             'Python',
-            'Zephyr RTOS',
+            'RTOS',
             'Embedded Linux',
-            'GDB',
             'Git / Gitlab / CI',
+            'Firmware Development',
             'Web Development',
             'PHP',
             'Javascript'
