@@ -21196,8 +21196,8 @@ page[size=A4] {
   -webkit-print-color-adjust: exact;
 }
 .profile .summary {
-  width: 42%;
-  max-width: 42%;
+  width: 44%;
+  max-width: 44%;
   height: 150px;
   text-align: justify;
   margin-right: 20px;
@@ -21243,10 +21243,10 @@ page[size=A4] {
 }
 .profile .contact {
   font-size: 13px;
-  width: 30%;
+  width: 35%;
   text-align: right;
   font-family: "Ubuntu-Medium";
-  margin-top: 20px;
+  margin-top: 35px;
 }
 .profile .contact .contact-line {
   margin-bottom: 10px;
@@ -21256,6 +21256,7 @@ page[size=A4] {
   color: #2A343E;
   vertical-align: middle;
   margin-left: 5px;
+  margin-right: 10px;
 }
 
 .main-content {
@@ -21433,6 +21434,7 @@ page[size=A4] {
   font-family: "Ubuntu-Regular";
   font-size: 12px;
   text-align: justify;
+  display: inline-block;
 }
 .main-content .education .course .activities i {
   color: #2CBBAD;

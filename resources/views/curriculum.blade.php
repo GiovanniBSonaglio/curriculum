@@ -8,7 +8,7 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}"></script>
-        
+
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
@@ -44,12 +44,6 @@
                         <section class="work-experiences">
                             @include('work_experience')
                         </section>
-
-                        <!-- 
-                        <section class="references">
-                            @include('references')
-                        </section>
-                        -->
                     </div>
                 </div>
             </div>

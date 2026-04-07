@@ -128,8 +128,8 @@ page[size="A4"] {
     }
 
     .summary {
-        width: 42%;
-        max-width: 42%;
+        width: 44%;
+        max-width: 44%;
         height: 150px;
         text-align: justify;
         margin-right: 20px;
@@ -180,10 +180,10 @@ page[size="A4"] {
 
     .contact {
         font-size: 13px;
-        width: 30%;
+        width: 35%;
         text-align: right;
         font-family: 'Ubuntu-Medium';
-        margin-top: 20px;
+        margin-top: 35px;
 
         .contact-line {
             margin-bottom: 10px;
@@ -193,7 +193,7 @@ page[size="A4"] {
             font-size: 15px;
             color: $dark-blue;
             vertical-align: middle;
-            margin-left: 5px;
+            margin-right: 10px;
         }
     }
 }
@@ -409,6 +409,7 @@ page[size="A4"] {
                 font-family: 'Ubuntu-Regular';
                 font-size: 12px;
                 text-align: justify;
+                display: inline-block;
 
                 i {
                     color: $light-green;

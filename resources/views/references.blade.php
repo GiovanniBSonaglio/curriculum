@@ -1,21 +1,21 @@
-<div class="title"> REFERENCES </div>
+<div class="title"> RÉFÉRENTS </div>
 <div class="reference">
     <div class="name">
-        <i class="fa-solid fa-square"></i> Yves Bernard - Manager at Qorvo
+        <i class="fa-solid fa-square"></i> Beranger Cadet - Conseillère en Insertion Professionnelle
     </div>
     <div class="contact">
         <div class="item">
-            <i> Yves.Bernard@qorvo.com / +33 06 43 18 88 86 </i>
+            berangere.cadet@ifcdis.fr / 06 74 64 73 05
         </div>
     </div>
 </div>
 <div class="reference">
     <div class="name">
-        <i class="fa-solid fa-square"></i> Thiago Reis - Dir. Software engineering at Khomp
+        <i class="fa-solid fa-square"></i> Iris Breton - Dir. Marketing au Sangha Hotel
     </div>
     <div class="contact">
         <div class="item">
-            <i> reis@khomp.com / +55 (48) 98842-4047 </i>
+            irisbaron@gmail.com / 06 33 41 43 94
         </div>
     </div>
 </div>
