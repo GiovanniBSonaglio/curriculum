@@ -1,11 +1,10 @@
 <?php
 
 return [
-    'title' => 'LANGAGES',
-    'portuguese' => 'Portugais',
-    'portuguese-level' => 'Langue Maternelle',
-    'english' => 'Anglais',
-    'english-level' => 'Compétence Intermédiaire',
-    'french' => 'Français',
-    'french-level' => 'Compétence Intermédiaire (B2)'
+    'title' => 'LANGUAGES',
+    'languages' => [
+        'Portuguese' => 'Langue Maternelle',
+        'English' => 'Compétence Intermédiaire',
+        'French' => 'Compétence Intermédiaire (B2)'
+    ]
 ];

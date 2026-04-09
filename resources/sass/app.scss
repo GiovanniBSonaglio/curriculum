@@ -128,8 +128,8 @@ page[size="A4"] {
     }
 
     .summary {
-        width: 42%;
-        max-width: 42%;
+        width: 44%;
+        max-width: 44%;
         height: 150px;
         text-align: justify;
         margin-right: 20px;
@@ -180,10 +180,10 @@ page[size="A4"] {
 
     .contact {
         font-size: 13px;
-        width: 30%;
+        width: 35%;
         text-align: right;
         font-family: 'Ubuntu-Medium';
-        margin-top: 20px;
+        margin-top: 35px;
 
         .contact-line {
             margin-bottom: 10px;
@@ -193,7 +193,7 @@ page[size="A4"] {
             font-size: 15px;
             color: $dark-blue;
             vertical-align: middle;
-            margin-left: 5px;
+            margin-right: 10px;
         }
     }
 }
@@ -357,10 +357,17 @@ page[size="A4"] {
     }
 
     .references {
+        margin-top: 20px;
+
+        .title {
+            margin-bottom: 5px;
+        }
+
         .reference {
             color: $black;
             margin-bottom: 5px;
             position: relative;
+
 
             .name {
                 font-family: 'Ubuntu-Bold';
@@ -374,7 +381,7 @@ page[size="A4"] {
             }
 
             .contact {
-                font-family: 'Ubuntu-Medium';
+                font-family: 'Ubuntu-Regular';
                 font-size: 14px;
             }
         }
@@ -397,7 +404,14 @@ page[size="A4"] {
                 color: $light-green;
                 font-size: 12px;
                 margin-top: 3px;
-                float: right;
+
+                .left {
+                    float: left;
+                }
+
+                .right {
+                    float: right;
+                }
             }
 
             .institution {
@@ -409,6 +423,7 @@ page[size="A4"] {
                 font-family: 'Ubuntu-Regular';
                 font-size: 12px;
                 text-align: justify;
+                display: inline-block;
 
                 i {
                     color: $light-green;
