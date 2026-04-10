@@ -21145,6 +21145,8 @@ page[size=A4] {
 }
 .custom-row {
   display: flex; /* equal height of the children */
+  width: 80%;
+  margin: 0px 10%;
 }
 
 .random-shape {
@@ -21166,7 +21168,7 @@ page[size=A4] {
 .corner-shape {
   position: relative;
   right: 260px;
-  bottom: 190px;
+  bottom: 70px;
   opacity: 0.7;
   height: 200px;
   width: 210mm;
@@ -21294,7 +21296,7 @@ page[size=A4] {
 }
 .main-content .work-experiences .job {
   color: #000;
-  margin: 10px 0;
+  margin: 20px 0;
   position: relative;
 }
 .main-content .work-experiences .job .line {

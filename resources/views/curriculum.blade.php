@@ -18,33 +18,11 @@
     <body class="antialiased">
         <page size="A4">
             <img class="random-shape" src="/images/shape.svg">
-            <div class="profile">
-                @include('profile')
-            </div>
             <div class="main-content">
                 <div class="custom-row">
-                    <div class="left-col custom-col">
-                        <section class="education">
-                            @include('education')
-                        </section>
-                        <section class="skills-section">
-                            @include('skills')
-                        </section>
-                        {{-- <section class="extracurricular">
-                            @include('extracurricular')
-                        </section> --}}
-                        <section class="languages">
-                            @include('languages')
-                        </section>
-                        <section class="references">
-                            @include('references')
-                        </section>
-                    </div>
-                    <div class="right-col custom-col">
-                        <section class="work-experiences">
-                            @include('work_experience')
-                        </section>
-                    </div>
+                    <section class="work-experiences">
+                        @include('work_experience')
+                    </section>
                 </div>
             </div>
             <img class="corner-shape" src="/images/corner_shape.svg">

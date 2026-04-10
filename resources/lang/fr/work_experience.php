@@ -3,131 +3,111 @@
 return [
     'title' => 'EXPÉRIENCE PROFESSIONNELLE',
     'experiences' => [
-        // Sangha
-        'sangha' => [
-            'company_name' => 'Sangha Hotel',
-            'positions' => [
-                [
-                    'position' => 'Marketing - Stage',
-                    'info' => [
-                        'date' => '01/2026 - 02/2026',
-                        'location' => 'Toulouse, France',
-                    ],
-                    'activities' => [
-                        'Analyse et gestion de la stratégie de contenu pour les réseaux sociaux.',
-                        'Création de visuels, contenus digitaux et production de photos et vidéos pour l\'hôtel et l\'espace bien-être L\'Autre Lieu.',
-                        'Promotion des événements de l\'hôtel via les réseaux sociaux et supports visuels.',
-                    ]
-                ]
-            ]
-        ],
-        // Candle
-        'candle' => [
-            'company_name' => 'Candle Digital',
-            'positions' => [
-                [
-                    'position' => 'Marketing - CDI',
-                    'info' => [
-                        'date' => '06/2023 - 11/2025',
-                        'location' => 'Florianópolis, Brésil',
-                    ],
-                    'activities' => [
-                        'Production et montage de vidéos avec Capcut pour les réseaux sociaux, atteignant jusqu\'à 20 millions de vues.',
-                        'Planification de contenu et gestion des publications pour 12 entreprises de secteurs variés, avec un suivi efficace via Trello et tableaux Excel.',
-                        'Conseil aux clients sur l\'enregistrement de vidéos et stratégies digitales, optimisant performance et engagement.',
-                    ]
-                ]
-            ]
-        ],
-        // Novidade Saudável
-        'novidade' => [
-            'company_name' => 'Novidade Saudável - E-commerce',
-            'positions' => [
-                [
-                    'position' => 'Marketing Nutritionnel - CDI',
-                    'info' => [
-                        'date' => '11/2020 - 12/2021',
-                        'location' => 'Florianópolis, Brésil',
-                    ],
-                    'activities' => [
-                        'Production de contenus médiatiques avec les produits pour la promotion et la diffusion sur les réseaux sociaux, suivis par plus de cent mille abonnés.',
-                        'Élaboration de recettes et de contenus nutritionnels informatifs. Production et montage de vidéos ainsi que création de contenus graphiques.',
-                        'Assistance dans les réponses aux FAQ et au SAV, ainsi que gestion de l\'assistance aux clients via les réseaux sociaux.',
-                    ]
-                ]
-            ]
-        ],
-        // Nutricionista
-        'nutricionista' => [
-            'company_name' => 'Clinique Diététique',
-            'positions' => [
-                [
-                    'position' => 'Auto-entrepreneuse',
-                    'info' => [
-                        'date' => '04/2020 - 12/2022',
-                        'location' => 'Florianópolis, Brésil',
-                    ],
-                    'activities' => [
-                        'Prospection de clients et promotion via les réseaux sociaux à travers vidéos et publications. Montage, enregistrement, création de contenu et gestion du profil professionnel.',
-                        'Consultations nutritionnelles et évaluation physique des patients.',
-                        'Élaboration de plans alimentaires personnalisés et prescription de compléments alimentaires.',
-                    ]
-                ]
-            ]
-        ],
-
         // Equilibrar
         'equilibrar' => [
             'company_name' => 'Épicerie naturelle - Equilibrar',
             'positions' => [
                 [
-                    'position' => 'Nutrition - CDI',
+                    'position' => 'Restauration - CDI',
                     'info' => [
                         'date' => '06/2017 - 12/2017',
                         'location' => 'Florianópolis, Brésil',
                     ],
                     'activities' => [
-                        'item1' => 'Réception des marchandises, organisation et gestion des stocks.',
-                        'item2' => 'Assistance et orientation des clients concernant les produits.'
+                        'Réception des marchandises, organisation et gestion des stocks.',
+                        'Assistance et orientation des clients concernant les produits, plats et boissons.',
+                        'Service en salle et prise de commandes.',
+                        'Préparation des boissons proposées par le restaurant.',
+                        'Participation au nettoyage et à l’entretien de l’espace de travail.',
+                        'Soutien en cuisine selon les besoins de l’équipe.'
                     ]
                 ]
             ]
         ],
 
-        // // prefeitura
-        // 'prefeitura' => [
-        //     'company_name' => 'Préfecture de Florianópolis',
-        //     'positions' => [
-        //         [
-        //             'position' => 'Assistante Administrative - CDI',
-        //             'info' => [
-        //                 'date' => '06/2015 - 12/2015',
-        //                 'location' => 'Florianópolis, Brésil',
-        //             ],
-        //             'activities' => [
-        //                 'Gestion de tableaux excel pour l\'indexation des collèges.',
-        //                 'Support aux collèges dans les questions administratives.',
-        //             ]
-        //         ]
-        //     ],
-        // ],
-
-        // DVA
-        'dva' => [
-            'company_name' => 'DVA – Concessionnaire Mercedes-Benz',
+        // Los Paleteros
+        'paleteros' => [
+            'company_name' => 'Glacier - Los Paleteros',
             'positions' => [
                 [
-                    'position' => 'Assistante Administrative - Stage',
+                    'position' => 'CDD',
                     'info' => [
-                        'date' => '02/2013 - 09/2014',
+                        'date' => '12/2018 - 05/2019',
                         'location' => 'Florianópolis, Brésil',
                     ],
                     'activities' => [
-                        'Contrôle et vérification de documents et dossiers.',
-                        'Gestion et assitance dans les activités avec office.'
+                        'Réception des marchandises et gestion des stocks',
+                        'Accueil de la clientèle et prise des commandes.',
+                        'Service client et encaissement.',
+                        'Maintien de la propreté de l\'établissement.'
                     ]
                 ]
             ]
-        ]
+        ],
+
+        // MPSC
+        'mpsc' => [
+            'company_name' => 'Restaurant - Ministère Publique de Santa Catarina - MPSC',
+            'positions' => [
+                [
+                    'position' => 'Stage Restauration',
+                    'info' => [
+                        'date' => '08/2018 - 10/2018',
+                        'location' => 'Florianópolis, Brésil',
+                    ],
+                    'activities' => [
+                        'Contrôle des stocks et gestion des matières premières.',
+                        'Suivi de la qualité des aliments et respect des normes d\'hygiène.',
+                        'Aide au contrôle de la réception des marchandises.',
+                        'Suivi de la conservation et du stockage des produits alimentaires.',
+                        'Participation au contrôle sanitaire et à la sécurité alimentaire.',
+                        'Contact et communication avec les clients et les équipes de restauration.',
+                        'Observation et soutien dans les procédures de production et distribution des repas.',
+                    ]
+                ]
+            ]
+        ],
+
+        // Brasil Car
+        'brasil_car' => [
+            'company_name' => 'Concessionnaire Automobile - Brasil Car Multimarcas',
+            'positions' => [
+                [
+                    'position' => 'Assistante Administrative',
+                    'info' => [
+                        'date' => '01/2022 - 12/2022',
+                        'location' => 'Florianópolis, Brésil',
+                    ],
+                    'activities' => [
+                        'Accueil et réception des clients en concession automobile.',
+                        'Gestion des appels téléphoniques et des rendez-vous.',
+                        'Enregistrement et suivi des dossiers clients.',
+                        'Participation à la gestion quotidienne de l\'espace d\'accueil et à l\'organisation administrative.',
+                    ]
+                ]
+            ]
+        ],
+
+        // Brasil Car
+        'florescer' => [
+            'company_name' => 'Clinique Esthétique - Florescer',
+            'positions' => [
+                [
+                    'position' => 'Réceptionniste - CDD',
+                    'info' => [
+                        'date' => '01/2017 - 05/2017',
+                        'location' => 'Florianópolis, Brésil',
+                    ],
+                    'activities' => [
+                        'Accueil et réception des clientes.',
+                        'Prise en charge des rendez-vous et gestion de l\'agenda.',
+                        'Orientation des clientes et réponse aux demandes d\'informations sur les prestations.',
+                        'Encaissement et gestion des paiements.',
+                        'Maintien de l\'espace d\'accueil propre et accueillant.',
+                        'Assistance à l\'équipe pour le bon déroulement des activités quotidiennes.',
+                    ]
+                ]
+            ]
+        ],
     ]
 ];

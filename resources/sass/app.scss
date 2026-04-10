@@ -66,6 +66,8 @@ page[size="A4"] {
 
 .custom-row {
     display: flex; /* equal height of the children */
+    width: 80%;
+    margin: 0px 10%;
 }
 
 // .custom-col {
@@ -95,7 +97,7 @@ page[size="A4"] {
     position: relative;
     right: 260px;
     //bottom: 170px;
-    bottom: 190px;
+    bottom: 70px;
     opacity: 0.7;
 
     height: 200px;
@@ -240,7 +242,7 @@ page[size="A4"] {
     .work-experiences {
         .job {
             color: $black;
-            margin: 10px 0;
+            margin: 20px 0;
             position: relative;
 
             .line {
